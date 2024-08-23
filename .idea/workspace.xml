@@ -6,15 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="8ad82611-6c78-4a6e-b095-e6ab2c3a405d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/erd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/erd.mwb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="com.intellij.jpb.JpaEntity" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/ITI JAVA/webProject/PotatoesWebsite/src/main/resources",
@@ -97,7 +102,7 @@
       <updated>1724351767180</updated>
       <workItem from="1724351767641" duration="139000" />
       <workItem from="1724352141714" duration="5659000" />
-      <workItem from="1724413082251" duration="121000" />
+      <workItem from="1724413082251" duration="318000" />
     </task>
     <servers />
   </component>
