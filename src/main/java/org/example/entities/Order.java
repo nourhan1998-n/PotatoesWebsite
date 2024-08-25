@@ -7,31 +7,23 @@ import java.time.LocalDate;
 @Entity
 @Table(name = "`order`")
 public class Order {
-    @EmbeddedId
-    private OrderId id;
-
-    @MapsId("userId")
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "userId", nullable = false)
-    private User user;
+    @Id
+    @Column(name = "idorder", nullable = false)
+    private Integer id;
 
     @Column(name = "date")
     private LocalDate date;
 
-    public OrderId getId() {
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "iduser", nullable = false)
+    private User iduser;
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(OrderId id) {
+    public void setId(Integer id) {
         this.id = id;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
     }
 
     public LocalDate getDate() {
@@ -40,6 +32,14 @@ public class Order {
 
     public void setDate(LocalDate date) {
         this.date = date;
+    }
+
+    public User getIduser() {
+        return iduser;
+    }
+
+    public void setIduser(User iduser) {
+        this.iduser = iduser;
     }
 
 }

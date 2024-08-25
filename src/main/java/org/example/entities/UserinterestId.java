@@ -8,27 +8,27 @@ import java.util.Objects;
 
 @Embeddable
 public class UserinterestId implements java.io.Serializable {
-    private static final long serialVersionUID = -4237039276951662397L;
-    @Column(name = "interestsId", nullable = false)
-    private Integer interestsId;
+    private static final long serialVersionUID = 6118108806673396192L;
+    @Column(name = "iduser", nullable = false)
+    private Integer iduser;
 
-    @Column(name = "userId", nullable = false)
-    private Integer userId;
+    @Column(name = "idinterests", nullable = false)
+    private Integer idinterests;
 
-    public Integer getInterestsId() {
-        return interestsId;
+    public Integer getIduser() {
+        return iduser;
     }
 
-    public void setInterestsId(Integer interestsId) {
-        this.interestsId = interestsId;
+    public void setIduser(Integer iduser) {
+        this.iduser = iduser;
     }
 
-    public Integer getUserId() {
-        return userId;
+    public Integer getIdinterests() {
+        return idinterests;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setIdinterests(Integer idinterests) {
+        this.idinterests = idinterests;
     }
 
     @Override
@@ -36,13 +36,13 @@ public class UserinterestId implements java.io.Serializable {
         if (this == o) return true;
         if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
         UserinterestId entity = (UserinterestId) o;
-        return Objects.equals(this.interestsId, entity.interestsId) &&
-                Objects.equals(this.userId, entity.userId);
+        return Objects.equals(this.iduser, entity.iduser) &&
+                Objects.equals(this.idinterests, entity.idinterests);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(interestsId, userId);
+        return Objects.hash(iduser, idinterests);
     }
 
 }

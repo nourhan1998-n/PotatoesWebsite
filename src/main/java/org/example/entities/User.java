@@ -1,34 +1,42 @@
 package org.example.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "user")
 public class User {
     @Id
-    @Column(name = "userId", nullable = false)
+    @Column(name = "iduser", nullable = false)
     private Integer id;
 
-    @Column(name = "userName", length = 45)
-    private String userName;
+    @Column(name = "name", length = 45)
+    private String name;
+
+    @Column(name = "email", length = 45)
+    private String email;
 
     @Column(name = "password", length = 45)
     private String password;
 
-    @Column(name = "email", nullable = false, length = 45)
-    private String email;
-
-    @Column(name = "creditLimit")
-    private Integer creditLimit;
-
     @Column(name = "job", length = 45)
     private String job;
 
-    @Column(name = "address", length = 45)
-    private String address;
+    @Column(name = "credit", length = 45)
+    private String credit;
+
+    @Column(name = "city", length = 45)
+    private String city;
+
+    @Column(name = "street", length = 45)
+    private String street;
+
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "idcart", nullable = false)
+    private Cart idcart;
+
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "idwishlist", nullable = false)
+    private Wishlist idwishlist;
 
     public Integer getId() {
         return id;
@@ -38,20 +46,12 @@ public class User {
         this.id = id;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getName() {
+        return name;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {
@@ -62,12 +62,12 @@ public class User {
         this.email = email;
     }
 
-    public Integer getCreditLimit() {
-        return creditLimit;
+    public String getPassword() {
+        return password;
     }
 
-    public void setCreditLimit(Integer creditLimit) {
-        this.creditLimit = creditLimit;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getJob() {
@@ -78,12 +78,44 @@ public class User {
         this.job = job;
     }
 
-    public String getAddress() {
-        return address;
+    public String getCredit() {
+        return credit;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setCredit(String credit) {
+        this.credit = credit;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public Cart getIdcart() {
+        return idcart;
+    }
+
+    public void setIdcart(Cart idcart) {
+        this.idcart = idcart;
+    }
+
+    public Wishlist getIdwishlist() {
+        return idwishlist;
+    }
+
+    public void setIdwishlist(Wishlist idwishlist) {
+        this.idwishlist = idwishlist;
     }
 
 }

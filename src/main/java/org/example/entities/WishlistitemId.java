@@ -7,13 +7,21 @@ import org.hibernate.Hibernate;
 import java.util.Objects;
 
 @Embeddable
-public class ProductcategoryId implements java.io.Serializable {
-    private static final long serialVersionUID = -8509957885600675035L;
+public class WishlistitemId implements java.io.Serializable {
+    private static final long serialVersionUID = 426550953089855999L;
+    @Column(name = "idwishlist", nullable = false)
+    private Integer idwishlist;
+
     @Column(name = "idproduct", nullable = false)
     private Integer idproduct;
 
-    @Column(name = "idcategory", nullable = false)
-    private Integer idcategory;
+    public Integer getIdwishlist() {
+        return idwishlist;
+    }
+
+    public void setIdwishlist(Integer idwishlist) {
+        this.idwishlist = idwishlist;
+    }
 
     public Integer getIdproduct() {
         return idproduct;
@@ -23,26 +31,18 @@ public class ProductcategoryId implements java.io.Serializable {
         this.idproduct = idproduct;
     }
 
-    public Integer getIdcategory() {
-        return idcategory;
-    }
-
-    public void setIdcategory(Integer idcategory) {
-        this.idcategory = idcategory;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
-        ProductcategoryId entity = (ProductcategoryId) o;
+        WishlistitemId entity = (WishlistitemId) o;
         return Objects.equals(this.idproduct, entity.idproduct) &&
-                Objects.equals(this.idcategory, entity.idcategory);
+                Objects.equals(this.idwishlist, entity.idwishlist);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(idproduct, idcategory);
+        return Objects.hash(idproduct, idwishlist);
     }
 
 }

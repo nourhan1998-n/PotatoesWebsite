@@ -8,15 +8,15 @@ public class Productcategory {
     @EmbeddedId
     private ProductcategoryId id;
 
-    @MapsId("productId")
+    @MapsId("idproduct")
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "productId", nullable = false)
-    private Product product;
+    @JoinColumn(name = "idproduct", nullable = false)
+    private Product idproduct;
 
-    @MapsId("categoryId")
+    @MapsId("idcategory")
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "categoryId", nullable = false)
-    private Category category;
+    @JoinColumn(name = "idcategory", nullable = false)
+    private Category idcategory;
 
     public ProductcategoryId getId() {
         return id;
@@ -26,20 +26,20 @@ public class Productcategory {
         this.id = id;
     }
 
-    public Product getProduct() {
-        return product;
+    public Product getIdproduct() {
+        return idproduct;
     }
 
-    public void setProduct(Product product) {
-        this.product = product;
+    public void setIdproduct(Product idproduct) {
+        this.idproduct = idproduct;
     }
 
-    public Category getCategory() {
-        return category;
+    public Category getIdcategory() {
+        return idcategory;
     }
 
-    public void setCategory(Category category) {
-        this.category = category;
+    public void setIdcategory(Category idcategory) {
+        this.idcategory = idcategory;
     }
 
 }

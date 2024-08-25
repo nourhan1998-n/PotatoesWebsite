@@ -5,21 +5,26 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+import java.math.BigDecimal;
+
 @Entity
 @Table(name = "product")
 public class Product {
     @Id
-    @Column(name = "productId", nullable = false)
+    @Column(name = "idproduct", nullable = false)
     private Integer id;
 
     @Column(name = "name", length = 45)
     private String name;
 
-    @Column(name = "quantity")
-    private Integer quantity;
+    @Column(name = "quantity", length = 45)
+    private String quantity;
 
-    @Column(name = "price")
-    private Integer price;
+    @Column(name = "price", precision = 10)
+    private BigDecimal price;
+
+    @Column(name = "img", length = 45)
+    private String img;
 
     public Integer getId() {
         return id;
@@ -37,20 +42,28 @@ public class Product {
         this.name = name;
     }
 
-    public Integer getQuantity() {
+    public String getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(Integer quantity) {
+    public void setQuantity(String quantity) {
         this.quantity = quantity;
     }
 
-    public Integer getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(Integer price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
     }
 
 }

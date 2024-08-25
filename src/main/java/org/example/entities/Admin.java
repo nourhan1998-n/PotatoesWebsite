@@ -9,14 +9,14 @@ import jakarta.persistence.Table;
 @Table(name = "admin")
 public class Admin {
     @Id
-    @Column(name = "adminId", nullable = false)
+    @Column(name = "idadmin", nullable = false)
     private Integer id;
 
-    @Column(name = "adminUserName", length = 45)
-    private String adminUserName;
+    @Column(name = "email", length = 45)
+    private String email;
 
-    @Column(name = "adminPassword", length = 45)
-    private String adminPassword;
+    @Column(name = "password", length = 45)
+    private String password;
 
     public Integer getId() {
         return id;
@@ -26,20 +26,20 @@ public class Admin {
         this.id = id;
     }
 
-    public String getAdminUserName() {
-        return adminUserName;
+    public String getEmail() {
+        return email;
     }
 
-    public void setAdminUserName(String adminUserName) {
-        this.adminUserName = adminUserName;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String getAdminPassword() {
-        return adminPassword;
+    public String getPassword() {
+        return password;
     }
 
-    public void setAdminPassword(String adminPassword) {
-        this.adminPassword = adminPassword;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
 }

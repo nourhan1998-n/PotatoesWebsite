@@ -8,15 +8,15 @@ public class Userinterest {
     @EmbeddedId
     private UserinterestId id;
 
-    @MapsId("interestsId")
+    @MapsId("iduser")
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "interestsId", nullable = false)
-    private Interest interests;
+    @JoinColumn(name = "iduser", nullable = false)
+    private User iduser;
 
-    @MapsId("userId")
+    @MapsId("idinterests")
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "userId", nullable = false)
-    private User user;
+    @JoinColumn(name = "idinterests", nullable = false)
+    private Interest idinterests;
 
     public UserinterestId getId() {
         return id;
@@ -26,20 +26,20 @@ public class Userinterest {
         this.id = id;
     }
 
-    public Interest getInterests() {
-        return interests;
+    public User getIduser() {
+        return iduser;
     }
 
-    public void setInterests(Interest interests) {
-        this.interests = interests;
+    public void setIduser(User iduser) {
+        this.iduser = iduser;
     }
 
-    public User getUser() {
-        return user;
+    public Interest getIdinterests() {
+        return idinterests;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setIdinterests(Interest idinterests) {
+        this.idinterests = idinterests;
     }
 
 }
