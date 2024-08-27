@@ -8,19 +8,19 @@ import java.util.Objects;
 
 @Embeddable
 public class CartitemId implements java.io.Serializable {
-    private static final long serialVersionUID = -9155720688523858914L;
-    @Column(name = "idcart", nullable = false)
-    private Integer idcart;
+    private static final long serialVersionUID = -6161938554029636950L;
+    @Column(name = "iduser", nullable = false)
+    private Integer iduser;
 
     @Column(name = "idproduct", nullable = false)
     private Integer idproduct;
 
-    public Integer getIdcart() {
-        return idcart;
+    public Integer getIduser() {
+        return iduser;
     }
 
-    public void setIdcart(Integer idcart) {
-        this.idcart = idcart;
+    public void setIduser(Integer iduser) {
+        this.iduser = iduser;
     }
 
     public Integer getIdproduct() {
@@ -37,12 +37,12 @@ public class CartitemId implements java.io.Serializable {
         if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
         CartitemId entity = (CartitemId) o;
         return Objects.equals(this.idproduct, entity.idproduct) &&
-                Objects.equals(this.idcart, entity.idcart);
+                Objects.equals(this.iduser, entity.iduser);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(idproduct, idcart);
+        return Objects.hash(idproduct, iduser);
     }
 
 }

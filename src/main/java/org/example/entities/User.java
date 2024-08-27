@@ -31,10 +31,6 @@ public class User {
     private String street;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "idcart", nullable = false)
-    private Cart idcart;
-
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "idwishlist", nullable = false)
     private Wishlist idwishlist;
 
@@ -100,14 +96,6 @@ public class User {
 
     public void setStreet(String street) {
         this.street = street;
-    }
-
-    public Cart getIdcart() {
-        return idcart;
-    }
-
-    public void setIdcart(Cart idcart) {
-        this.idcart = idcart;
     }
 
     public Wishlist getIdwishlist() {

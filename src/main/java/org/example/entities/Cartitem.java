@@ -8,10 +8,10 @@ public class Cartitem {
     @EmbeddedId
     private CartitemId id;
 
-    @MapsId("idcart")
+    @MapsId("iduser")
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "idcart", nullable = false)
-    private Cart idcart;
+    @JoinColumn(name = "iduser", nullable = false)
+    private User iduser;
 
     @MapsId("idproduct")
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
@@ -29,12 +29,12 @@ public class Cartitem {
         this.id = id;
     }
 
-    public Cart getIdcart() {
-        return idcart;
+    public User getIduser() {
+        return iduser;
     }
 
-    public void setIdcart(Cart idcart) {
-        this.idcart = idcart;
+    public void setIduser(User iduser) {
+        this.iduser = iduser;
     }
 
     public Product getIdproduct() {
