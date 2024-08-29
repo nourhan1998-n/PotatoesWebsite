@@ -1,6 +1,9 @@
 package org.example.entities;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "user")
@@ -29,10 +32,6 @@ public class User {
 
     @Column(name = "street", length = 45)
     private String street;
-
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "idwishlist", nullable = false)
-    private Wishlist idwishlist;
 
     public Integer getId() {
         return id;
@@ -96,14 +95,6 @@ public class User {
 
     public void setStreet(String street) {
         this.street = street;
-    }
-
-    public Wishlist getIdwishlist() {
-        return idwishlist;
-    }
-
-    public void setIdwishlist(Wishlist idwishlist) {
-        this.idwishlist = idwishlist;
     }
 
 }

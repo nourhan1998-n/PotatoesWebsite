@@ -15,15 +15,6 @@ CREATE SCHEMA IF NOT EXISTS `potatoes` DEFAULT CHARACTER SET utf8 ;
 USE `potatoes` ;
 
 -- -----------------------------------------------------
--- Table `potatoes`.`wishlist`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`wishlist` (
-  `idwishlist` INT NOT NULL,
-  PRIMARY KEY (`idwishlist`))
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
 -- Table `potatoes`.`user`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `potatoes`.`user` (
@@ -35,15 +26,8 @@ CREATE TABLE IF NOT EXISTS `potatoes`.`user` (
   `credit` VARCHAR(45) NULL,
   `city` VARCHAR(45) NULL,
   `street` VARCHAR(45) NULL,
-  `idwishlist` INT NOT NULL,
   PRIMARY KEY (`iduser`),
-  UNIQUE INDEX `email_UNIQUE` (`email` ASC) VISIBLE,
-  INDEX `fk_user_wishlist1_idx` (`idwishlist` ASC) VISIBLE,
-  CONSTRAINT `fk_user_wishlist1`
-    FOREIGN KEY (`idwishlist`)
-    REFERENCES `potatoes`.`wishlist` (`idwishlist`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+  UNIQUE INDEX `email_UNIQUE` (`email` ASC) VISIBLE)
 ENGINE = InnoDB;
 
 
@@ -65,6 +49,16 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
+-- Table `potatoes`.`category`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `potatoes`.`category` (
+  `idcategory` INT NOT NULL,
+  `name` VARCHAR(45) NULL,
+  PRIMARY KEY (`idcategory`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
 -- Table `potatoes`.`product`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `potatoes`.`product` (
@@ -73,27 +67,18 @@ CREATE TABLE IF NOT EXISTS `potatoes`.`product` (
   `quantity` VARCHAR(45) NULL,
   `price` DECIMAL NULL,
   `img` VARCHAR(45) NULL,
-  PRIMARY KEY (`idproduct`))
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `potatoes`.`interests`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`interests` (
-  `idinterests` INT NOT NULL,
-  `name` VARCHAR(45) NULL,
-  PRIMARY KEY (`idinterests`))
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `potatoes`.`category`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`category` (
+  `color` VARCHAR(45) NULL,
+  `cc` INT NULL,
+  `description` VARCHAR(45) NULL,
+  `model` INT NULL,
   `idcategory` INT NOT NULL,
-  `name` VARCHAR(45) NULL,
-  PRIMARY KEY (`idcategory`))
+  PRIMARY KEY (`idproduct`),
+  INDEX `fk_product_category1_idx` (`idcategory` ASC) VISIBLE,
+  CONSTRAINT `fk_product_category1`
+    FOREIGN KEY (`idcategory`)
+    REFERENCES `potatoes`.`category` (`idcategory`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
@@ -116,72 +101,6 @@ CREATE TABLE IF NOT EXISTS `potatoes`.`orderItems` (
   CONSTRAINT `fk_order_has_product_product1`
     FOREIGN KEY (`idproduct`)
     REFERENCES `potatoes`.`product` (`idproduct`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `potatoes`.`wishlistItems`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`wishlistItems` (
-  `idwishlist` INT NOT NULL,
-  `idproduct` INT NOT NULL,
-  PRIMARY KEY (`idwishlist`, `idproduct`),
-  INDEX `fk_wishlist_has_product_product1_idx` (`idproduct` ASC) VISIBLE,
-  INDEX `fk_wishlist_has_product_wishlist1_idx` (`idwishlist` ASC) VISIBLE,
-  CONSTRAINT `fk_wishlist_has_product_wishlist1`
-    FOREIGN KEY (`idwishlist`)
-    REFERENCES `potatoes`.`wishlist` (`idwishlist`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_wishlist_has_product_product1`
-    FOREIGN KEY (`idproduct`)
-    REFERENCES `potatoes`.`product` (`idproduct`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `potatoes`.`userInterests`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`userInterests` (
-  `iduser` INT NOT NULL,
-  `idinterests` INT NOT NULL,
-  PRIMARY KEY (`iduser`, `idinterests`),
-  INDEX `fk_user_has_interests_interests1_idx` (`idinterests` ASC) VISIBLE,
-  INDEX `fk_user_has_interests_user1_idx` (`iduser` ASC) VISIBLE,
-  CONSTRAINT `fk_user_has_interests_user1`
-    FOREIGN KEY (`iduser`)
-    REFERENCES `potatoes`.`user` (`iduser`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_user_has_interests_interests1`
-    FOREIGN KEY (`idinterests`)
-    REFERENCES `potatoes`.`interests` (`idinterests`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `potatoes`.`productCategory`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`productCategory` (
-  `idproduct` INT NOT NULL,
-  `idcategory` INT NOT NULL,
-  PRIMARY KEY (`idproduct`, `idcategory`),
-  INDEX `fk_product_has_category_category1_idx` (`idcategory` ASC) VISIBLE,
-  INDEX `fk_product_has_category_product1_idx` (`idproduct` ASC) VISIBLE,
-  CONSTRAINT `fk_product_has_category_product1`
-    FOREIGN KEY (`idproduct`)
-    REFERENCES `potatoes`.`product` (`idproduct`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_product_has_category_category1`
-    FOREIGN KEY (`idcategory`)
-    REFERENCES `potatoes`.`category` (`idcategory`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -215,6 +134,50 @@ CREATE TABLE IF NOT EXISTS `potatoes`.`cartItems` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_user_has_product_product1`
+    FOREIGN KEY (`idproduct`)
+    REFERENCES `potatoes`.`product` (`idproduct`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `potatoes`.`userInterests`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `potatoes`.`userInterests` (
+  `iduser` INT NOT NULL,
+  `idcategory` INT NOT NULL,
+  PRIMARY KEY (`iduser`, `idcategory`),
+  INDEX `fk_user_has_category_category1_idx` (`idcategory` ASC) VISIBLE,
+  INDEX `fk_user_has_category_user1_idx` (`iduser` ASC) VISIBLE,
+  CONSTRAINT `fk_user_has_category_user1`
+    FOREIGN KEY (`iduser`)
+    REFERENCES `potatoes`.`user` (`iduser`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_user_has_category_category1`
+    FOREIGN KEY (`idcategory`)
+    REFERENCES `potatoes`.`category` (`idcategory`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `potatoes`.`wishlist`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `potatoes`.`wishlist` (
+  `iduser` INT NOT NULL,
+  `idproduct` INT NOT NULL,
+  PRIMARY KEY (`iduser`, `idproduct`),
+  INDEX `fk_user_has_product_product2_idx` (`idproduct` ASC) VISIBLE,
+  INDEX `fk_user_has_product_user2_idx` (`iduser` ASC) VISIBLE,
+  CONSTRAINT `fk_user_has_product_user2`
+    FOREIGN KEY (`iduser`)
+    REFERENCES `potatoes`.`user` (`iduser`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_user_has_product_product2`
     FOREIGN KEY (`idproduct`)
     REFERENCES `potatoes`.`product` (`idproduct`)
     ON DELETE NO ACTION

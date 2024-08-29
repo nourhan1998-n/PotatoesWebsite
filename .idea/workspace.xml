@@ -6,22 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8ad82611-6c78-4a6e-b095-e6ab2c3a405d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32930dd5-17cf-4d7c-a5e9-a6e64a757994.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32930dd5-17cf-4d7c-a5e9-a6e64a757994/storage_v2/_src_/schema/db.fgwAAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5af5602d-6e21-40fd-83ce-22d0cd64a1c2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5af5602d-6e21-40fd-83ce-22d0cd64a1c2/storage_v2/_src_/schema/potatoes.FcvWLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9859fdea-c006-47d9-810f-13581d041c50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9859fdea-c006-47d9-810f-13581d041c50/storage_v2/_src_/schema/potatoes.FcvWLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/potatoes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/potatoes.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Cartitem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Cartitem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/CartitemId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/CartitemId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,11 +93,41 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CartUserRelationshipTest">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CartUserRelationshipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PotatoesWebsite" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CartUserRelationshipTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartUserRelationshipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PotatoesWebsite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CartUserRelationshipTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartUserRelationshipTest.testCartUserRelationship" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PotatoesWebsite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CartUserRelationshipTest" />
+      <option name="METHOD_NAME" value="testCartUserRelationship" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

@@ -7,20 +7,20 @@ import org.hibernate.Hibernate;
 import java.util.Objects;
 
 @Embeddable
-public class WishlistitemId implements java.io.Serializable {
-    private static final long serialVersionUID = 426550953089855999L;
-    @Column(name = "idwishlist", nullable = false)
-    private Integer idwishlist;
+public class WishlistId implements java.io.Serializable {
+    private static final long serialVersionUID = 8452101642929395215L;
+    @Column(name = "iduser", nullable = false)
+    private Integer iduser;
 
     @Column(name = "idproduct", nullable = false)
     private Integer idproduct;
 
-    public Integer getIdwishlist() {
-        return idwishlist;
+    public Integer getIduser() {
+        return iduser;
     }
 
-    public void setIdwishlist(Integer idwishlist) {
-        this.idwishlist = idwishlist;
+    public void setIduser(Integer iduser) {
+        this.iduser = iduser;
     }
 
     public Integer getIdproduct() {
@@ -35,14 +35,14 @@ public class WishlistitemId implements java.io.Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
-        WishlistitemId entity = (WishlistitemId) o;
+        WishlistId entity = (WishlistId) o;
         return Objects.equals(this.idproduct, entity.idproduct) &&
-                Objects.equals(this.idwishlist, entity.idwishlist);
+                Objects.equals(this.iduser, entity.iduser);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(idproduct, idwishlist);
+        return Objects.hash(idproduct, iduser);
     }
 
 }

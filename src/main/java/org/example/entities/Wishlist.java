@@ -1,23 +1,45 @@
 package org.example.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "wishlist")
 public class Wishlist {
-    @Id
-    @Column(name = "idwishlist", nullable = false)
-    private Integer id;
+    @EmbeddedId
+    private WishlistId id;
 
-    public Integer getId() {
+    @MapsId("iduser")
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "iduser", nullable = false)
+    private User iduser;
+
+    @MapsId("idproduct")
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "idproduct", nullable = false)
+    private Product idproduct;
+
+    public WishlistId getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(WishlistId id) {
         this.id = id;
+    }
+
+    public User getIduser() {
+        return iduser;
+    }
+
+    public void setIduser(User iduser) {
+        this.iduser = iduser;
+    }
+
+    public Product getIdproduct() {
+        return idproduct;
+    }
+
+    public void setIdproduct(Product idproduct) {
+        this.idproduct = idproduct;
     }
 
 }
