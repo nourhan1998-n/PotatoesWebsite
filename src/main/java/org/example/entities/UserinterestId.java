@@ -8,12 +8,12 @@ import java.util.Objects;
 
 @Embeddable
 public class UserinterestId implements java.io.Serializable {
-    private static final long serialVersionUID = 6118108806673396192L;
+    private static final long serialVersionUID = 379505028084950657L;
     @Column(name = "iduser", nullable = false)
     private Integer iduser;
 
-    @Column(name = "idinterests", nullable = false)
-    private Integer idinterests;
+    @Column(name = "idcategory", nullable = false)
+    private Integer idcategory;
 
     public Integer getIduser() {
         return iduser;
@@ -23,12 +23,12 @@ public class UserinterestId implements java.io.Serializable {
         this.iduser = iduser;
     }
 
-    public Integer getIdinterests() {
-        return idinterests;
+    public Integer getIdcategory() {
+        return idcategory;
     }
 
-    public void setIdinterests(Integer idinterests) {
-        this.idinterests = idinterests;
+    public void setIdcategory(Integer idcategory) {
+        this.idcategory = idcategory;
     }
 
     @Override
@@ -37,12 +37,12 @@ public class UserinterestId implements java.io.Serializable {
         if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
         UserinterestId entity = (UserinterestId) o;
         return Objects.equals(this.iduser, entity.iduser) &&
-                Objects.equals(this.idinterests, entity.idinterests);
+                Objects.equals(this.idcategory, entity.idcategory);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(iduser, idinterests);
+        return Objects.hash(iduser, idcategory);
     }
 
 }

@@ -13,10 +13,10 @@ public class Userinterest {
     @JoinColumn(name = "iduser", nullable = false)
     private User iduser;
 
-    @MapsId("idinterests")
+    @MapsId("idcategory")
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "idinterests", nullable = false)
-    private Interest idinterests;
+    @JoinColumn(name = "idcategory", nullable = false)
+    private Category idcategory;
 
     public UserinterestId getId() {
         return id;
@@ -34,12 +34,12 @@ public class Userinterest {
         this.iduser = iduser;
     }
 
-    public Interest getIdinterests() {
-        return idinterests;
+    public Category getIdcategory() {
+        return idcategory;
     }
 
-    public void setIdinterests(Interest idinterests) {
-        this.idinterests = idinterests;
+    public void setIdcategory(Category idcategory) {
+        this.idcategory = idcategory;
     }
 
 }
