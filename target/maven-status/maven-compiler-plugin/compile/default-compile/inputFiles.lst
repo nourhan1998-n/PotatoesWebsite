@@ -1,18 +1,26 @@
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\Admin.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\Cartitem.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\CartitemId.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\Category.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\Interest.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\Order.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\Orderitem.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\OrderitemId.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\Product.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\Productcategory.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\ProductcategoryId.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\User.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\Userinterest.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\UserinterestId.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\Wishlist.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\Wishlistitem.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\entities\WishlistitemId.java
-E:\ITI JAVA\webProject\PotatoesWebsite\src\main\java\org\example\Main.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\DAOs\AdminDAO.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\DAOs\CartItemDAO.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\DAOs\CategoryDAO.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\DAOs\EntityManagerFactorySinglton.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\DAOs\GenericDAO.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\DAOs\GenericDAOImpl.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\DAOs\OrderDAO.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\DAOs\OrderItemDAO.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\DAOs\ProductDAO.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\DAOs\UserDAO.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\DAOs\UserInterestDAO.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\DAOs\WishlistDAO.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\Admin.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\Cartitem.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\CartitemId.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\Category.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\Order.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\Orderitem.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\OrderitemId.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\Product.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\User.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\Userinterest.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\UserinterestId.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\Wishlist.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\entities\WishlistId.java
+E:\ITI JAVA\webProject\veges food\src\main\java\org\example\Main.java
