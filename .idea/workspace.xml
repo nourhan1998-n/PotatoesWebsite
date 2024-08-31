@@ -5,89 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ad82611-6c78-4a6e-b095-e6ab2c3a405d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/AdminDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/AdminDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CartItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CartItemDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CategoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/AdminDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CartItemDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CategoryDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/EntityManagerFactorySinglton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/GenericDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/GenericDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/GenericDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/OrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/OrderDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/OrderItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/OrderItemDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserInterestDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserInterestDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/WishlistDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/WishlistDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/OrderDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/OrderItemDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/ProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserInterestDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/WishlistDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Admin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Admin.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Cartitem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Cartitem.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/CartitemId.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/CartitemId.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Category.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Category.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Interest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Interest.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Order.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Orderitem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Orderitem.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/OrderitemId.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/OrderitemId.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Product.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Productcategory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Productcategory.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/ProductcategoryId.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/ProductcategoryId.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/User.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/User.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Userinterest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Userinterest.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/UserinterestId.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/UserinterestId.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Wishlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Wishlist.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Wishlistitem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Wishlistitem.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/WishlistitemId.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/WishlistitemId.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/Main.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-08-26T19-55-54_997.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CartUserRelationshipTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CartUserRelationshipTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CartUserRelationshipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CartUserRelationshipTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +91,7 @@
     "JUnit.CartUserRelationshipTest.testCartUserRelationship.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "DAO-v2",
+    "git-widget-placeholder": "DAO",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/ITI JAVA/webProject/PotatoesWebsite/src/main/resources",
     "node.js.detected.package.eslint": "true",
@@ -180,7 +117,7 @@
       <recent name="E:\ITI JAVA\webProject\PotatoesWebsite\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserDAO">
+  <component name="RunManager" selected="JUnit.CartUserRelationshipTest.testCartUserRelationship">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,9 +193,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CartUserRelationshipTest.testCartUserRelationship" />
         <item itemvalue="Application.UserDAO" />
         <item itemvalue="JUnit.CartUserRelationshipTest" />
-        <item itemvalue="JUnit.CartUserRelationshipTest.testCartUserRelationship" />
         <item itemvalue="JUnit.CartUserRelationshipTest.testCartUserRelationship" />
         <item itemvalue="JUnit.CartUserRelationshipTest" />
       </list>

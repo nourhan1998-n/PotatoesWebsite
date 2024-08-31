@@ -18,10 +18,11 @@ public class GenericDAOImpl<T, ID> implements GenericDAO<T, ID> {
 
     public GenericDAOImpl(Class<T> entityClass) {
         this.entityClass = entityClass;
-        this.emf = new EntityManagerFactorySinglton().getEntityManagerFactory();    }
+        this.emf = Persistence.createEntityManagerFactory("noura");
+    }
 
     @Override
-    public void save(T entity) {
+    public void create(T entity) {
         EntityManager em = emf.createEntityManager();
         try {
             em.getTransaction().begin();
@@ -70,7 +71,7 @@ public class GenericDAOImpl<T, ID> implements GenericDAO<T, ID> {
     }
 
     @Override
-    public T findById(ID id) {
+    public T read (ID id) {
         EntityManager em = emf.createEntityManager();
         T entity = null;
         try {
@@ -89,7 +90,7 @@ public class GenericDAOImpl<T, ID> implements GenericDAO<T, ID> {
     }
 
     @Override
-    public List<T> findAll() {
+    public List<T> readAll() {
         EntityManager em = emf.createEntityManager();
         List<T> entities = null;
         try {

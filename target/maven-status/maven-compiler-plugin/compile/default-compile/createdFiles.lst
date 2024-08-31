@@ -1,0 +1,16 @@
+org/example/entities/UserinterestId.class
+org/example/entities/Cartitem.class
+org/example/Main.class
+org/example/entities/CartitemId.class
+org/example/entities/Order.class
+org/example/entities/Product.class
+org/example/entities/Userinterest.class
+org/example/entities/Wishlist.class
+org/example/entities/Orderitem.class
+org/example/DAOs/GenericDAO.class
+org/example/entities/Category.class
+org/example/entities/OrderitemId.class
+org/example/entities/WishlistId.class
+org/example/DAOs/GenericDAOImpl.class
+org/example/entities/Admin.class
+org/example/entities/User.class

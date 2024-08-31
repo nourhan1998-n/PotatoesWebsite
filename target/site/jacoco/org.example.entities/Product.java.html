@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Product.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">PotatoesWebsite</a> &gt; <a href="index.source.html" class="el_package">org.example.entities</a> &gt; <span class="el_source">Product.java</span></div><h1>Product.java</h1><pre class="source lang-java linenums">package org.example.entities;
+
+import jakarta.persistence.*;
+
+import java.math.BigDecimal;
+
+@Entity
+@Table(name = &quot;product&quot;)
+<span class="fc" id="L9">public class Product {</span>
+    @Id
+    @Column(name = &quot;idproduct&quot;, nullable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
+    @Column(name = &quot;name&quot;, length = 45)
+    private String name;
+
+    @Column(name = &quot;quantity&quot;, length = 45)
+    private String quantity;
+
+    @Column(name = &quot;price&quot;, precision = 10)
+    private BigDecimal price;
+
+    @Column(name = &quot;img&quot;, length = 45)
+    private String img;
+
+    @Column(name = &quot;color&quot;, length = 45)
+    private String color;
+
+    @Column(name = &quot;cc&quot;)
+    private Integer cc;
+
+    @Column(name = &quot;description&quot;, length = 45)
+    private String description;
+
+    @Column(name = &quot;model&quot;)
+    private Integer model;
+
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = &quot;idcategory&quot;, nullable = false)
+    private Category idcategory;
+
+    public Integer getId() {
+<span class="nc" id="L44">        return id;</span>
+    }
+
+    public void setId(Integer id) {
+<span class="nc" id="L48">        this.id = id;</span>
+<span class="nc" id="L49">    }</span>
+
+    public String getName() {
+<span class="nc" id="L52">        return name;</span>
+    }
+
+    public void setName(String name) {
+<span class="nc" id="L56">        this.name = name;</span>
+<span class="nc" id="L57">    }</span>
+
+    public String getQuantity() {
+<span class="nc" id="L60">        return quantity;</span>
+    }
+
+    public void setQuantity(String quantity) {
+<span class="nc" id="L64">        this.quantity = quantity;</span>
+<span class="nc" id="L65">    }</span>
+
+    public BigDecimal getPrice() {
+<span class="nc" id="L68">        return price;</span>
+    }
+
+    public void setPrice(BigDecimal price) {
+<span class="nc" id="L72">        this.price = price;</span>
+<span class="nc" id="L73">    }</span>
+
+    public String getImg() {
+<span class="nc" id="L76">        return img;</span>
+    }
+
+    public void setImg(String img) {
+<span class="nc" id="L80">        this.img = img;</span>
+<span class="nc" id="L81">    }</span>
+
+    public String getColor() {
+<span class="nc" id="L84">        return color;</span>
+    }
+
+    public void setColor(String color) {
+<span class="nc" id="L88">        this.color = color;</span>
+<span class="nc" id="L89">    }</span>
+
+    public Integer getCc() {
+<span class="nc" id="L92">        return cc;</span>
+    }
+
+    public void setCc(Integer cc) {
+<span class="nc" id="L96">        this.cc = cc;</span>
+<span class="nc" id="L97">    }</span>
+
+    public String getDescription() {
+<span class="nc" id="L100">        return description;</span>
+    }
+
+    public void setDescription(String description) {
+<span class="nc" id="L104">        this.description = description;</span>
+<span class="nc" id="L105">    }</span>
+
+    public Integer getModel() {
+<span class="nc" id="L108">        return model;</span>
+    }
+
+    public void setModel(Integer model) {
+<span class="nc" id="L112">        this.model = model;</span>
+<span class="nc" id="L113">    }</span>
+
+    public Category getIdcategory() {
+<span class="nc" id="L116">        return idcategory;</span>
+    }
+
+    public void setIdcategory(Category idcategory) {
+<span class="nc" id="L120">        this.idcategory = idcategory;</span>
+<span class="nc" id="L121">    }</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

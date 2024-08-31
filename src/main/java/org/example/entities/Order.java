@@ -9,6 +9,7 @@ import java.time.LocalDate;
 public class Order {
     @Id
     @Column(name = "idorder", nullable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(name = "date")
