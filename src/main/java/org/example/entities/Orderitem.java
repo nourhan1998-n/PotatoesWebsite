@@ -5,7 +5,10 @@ import jakarta.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "orderitems")
+@Table(name = "orderitems", schema = "vegesfood", indexes = {
+        @Index(name = "fk_order_has_product_order1_idx", columnList = "idorder"),
+        @Index(name = "fk_order_has_product_product1_idx", columnList = "idproduct")
+})
 public class Orderitem {
     @EmbeddedId
     private OrderitemId id;

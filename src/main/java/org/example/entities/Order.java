@@ -5,9 +5,12 @@ import jakarta.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "`order`")
+@Table(name = "`order`", schema = "vegesfood", indexes = {
+        @Index(name = "fk_order_user1_idx", columnList = "iduser")
+})
 public class Order {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "idorder", nullable = false)
     private Integer id;
 

@@ -5,20 +5,20 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 -- -----------------------------------------------------
--- Schema potatoes
+-- Schema vegesfood
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema potatoes
+-- Schema vegesfood
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `potatoes` DEFAULT CHARACTER SET utf8 ;
-USE `potatoes` ;
+CREATE SCHEMA IF NOT EXISTS `vegesfood` DEFAULT CHARACTER SET utf8 ;
+USE `vegesfood` ;
 
 -- -----------------------------------------------------
--- Table `potatoes`.`user`
+-- Table `vegesfood`.`user`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`user` (
-  `iduser` INT NOT NULL,
+CREATE TABLE IF NOT EXISTS `vegesfood`.`user` (
+  `iduser` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   `email` VARCHAR(45) NULL,
   `password` VARCHAR(45) NULL,
@@ -32,60 +32,57 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `potatoes`.`order`
+-- Table `vegesfood`.`order`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`order` (
-  `idorder` INT NOT NULL,
+CREATE TABLE IF NOT EXISTS `vegesfood`.`order` (
+  `idorder` INT NOT NULL AUTO_INCREMENT,
   `date` DATE NULL,
   `iduser` INT NOT NULL,
   PRIMARY KEY (`idorder`),
   INDEX `fk_order_user1_idx` (`iduser` ASC) VISIBLE,
   CONSTRAINT `fk_order_user1`
     FOREIGN KEY (`iduser`)
-    REFERENCES `potatoes`.`user` (`iduser`)
+    REFERENCES `vegesfood`.`user` (`iduser`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `potatoes`.`category`
+-- Table `vegesfood`.`category`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`category` (
-  `idcategory` INT NOT NULL,
+CREATE TABLE IF NOT EXISTS `vegesfood`.`category` (
+  `idcategory` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   PRIMARY KEY (`idcategory`))
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `potatoes`.`product`
+-- Table `vegesfood`.`product`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`product` (
-  `idproduct` INT NOT NULL,
+CREATE TABLE IF NOT EXISTS `vegesfood`.`product` (
+  `idproduct` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
-  `quantity` VARCHAR(45) NULL,
+  `quantity` DECIMAL NULL,
   `price` DECIMAL NULL,
   `img` VARCHAR(45) NULL,
-  `color` VARCHAR(45) NULL,
-  `cc` INT NULL,
-  `description` VARCHAR(45) NULL,
-  `model` INT NULL,
+  `size` VARCHAR(45) NULL,
   `idcategory` INT NOT NULL,
   PRIMARY KEY (`idproduct`),
   INDEX `fk_product_category1_idx` (`idcategory` ASC) VISIBLE,
   CONSTRAINT `fk_product_category1`
     FOREIGN KEY (`idcategory`)
-    REFERENCES `potatoes`.`category` (`idcategory`)
+    REFERENCES `vegesfood`.`category` (`idcategory`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `potatoes`.`orderItems`
+-- Table `vegesfood`.`orderItems`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`orderItems` (
+CREATE TABLE IF NOT EXISTS `vegesfood`.`orderItems` (
   `idorder` INT NOT NULL,
   `idproduct` INT NOT NULL,
   `quantity` INT NULL,
@@ -95,22 +92,22 @@ CREATE TABLE IF NOT EXISTS `potatoes`.`orderItems` (
   INDEX `fk_order_has_product_order1_idx` (`idorder` ASC) VISIBLE,
   CONSTRAINT `fk_order_has_product_order1`
     FOREIGN KEY (`idorder`)
-    REFERENCES `potatoes`.`order` (`idorder`)
+    REFERENCES `vegesfood`.`order` (`idorder`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_order_has_product_product1`
     FOREIGN KEY (`idproduct`)
-    REFERENCES `potatoes`.`product` (`idproduct`)
+    REFERENCES `vegesfood`.`product` (`idproduct`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `potatoes`.`admin`
+-- Table `vegesfood`.`admin`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`admin` (
-  `idadmin` INT NOT NULL,
+CREATE TABLE IF NOT EXISTS `vegesfood`.`admin` (
+  `idadmin` INT NOT NULL AUTO_INCREMENT,
   `email` VARCHAR(45) NULL,
   `password` VARCHAR(45) NULL,
   PRIMARY KEY (`idadmin`),
@@ -119,32 +116,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `potatoes`.`cartItems`
+-- Table `vegesfood`.`userInterests`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`cartItems` (
-  `iduser` INT NOT NULL,
-  `idproduct` INT NOT NULL,
-  `quantity` INT NULL,
-  PRIMARY KEY (`iduser`, `idproduct`),
-  INDEX `fk_user_has_product_product1_idx` (`idproduct` ASC) VISIBLE,
-  INDEX `fk_user_has_product_user1_idx` (`iduser` ASC) VISIBLE,
-  CONSTRAINT `fk_user_has_product_user1`
-    FOREIGN KEY (`iduser`)
-    REFERENCES `potatoes`.`user` (`iduser`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_user_has_product_product1`
-    FOREIGN KEY (`idproduct`)
-    REFERENCES `potatoes`.`product` (`idproduct`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `potatoes`.`userInterests`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`userInterests` (
+CREATE TABLE IF NOT EXISTS `vegesfood`.`userInterests` (
   `iduser` INT NOT NULL,
   `idcategory` INT NOT NULL,
   PRIMARY KEY (`iduser`, `idcategory`),
@@ -152,34 +126,57 @@ CREATE TABLE IF NOT EXISTS `potatoes`.`userInterests` (
   INDEX `fk_user_has_category_user1_idx` (`iduser` ASC) VISIBLE,
   CONSTRAINT `fk_user_has_category_user1`
     FOREIGN KEY (`iduser`)
-    REFERENCES `potatoes`.`user` (`iduser`)
+    REFERENCES `vegesfood`.`user` (`iduser`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_user_has_category_category1`
     FOREIGN KEY (`idcategory`)
-    REFERENCES `potatoes`.`category` (`idcategory`)
+    REFERENCES `vegesfood`.`category` (`idcategory`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `potatoes`.`wishlist`
+-- Table `vegesfood`.`cartItems`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `potatoes`.`wishlist` (
-  `iduser` INT NOT NULL,
+CREATE TABLE IF NOT EXISTS `vegesfood`.`cartItems` (
   `idproduct` INT NOT NULL,
-  PRIMARY KEY (`iduser`, `idproduct`),
-  INDEX `fk_user_has_product_product2_idx` (`idproduct` ASC) VISIBLE,
-  INDEX `fk_user_has_product_user2_idx` (`iduser` ASC) VISIBLE,
-  CONSTRAINT `fk_user_has_product_user2`
-    FOREIGN KEY (`iduser`)
-    REFERENCES `potatoes`.`user` (`iduser`)
+  `quantity` INT NULL,
+  `iduser` INT NOT NULL,
+  PRIMARY KEY (`idproduct`, `iduser`),
+  INDEX `fk_user_has_product_product1_idx` (`idproduct` ASC) VISIBLE,
+  INDEX `fk_cartItems_user1_idx` (`iduser` ASC) VISIBLE,
+  CONSTRAINT `fk_user_has_product_product1`
+    FOREIGN KEY (`idproduct`)
+    REFERENCES `vegesfood`.`product` (`idproduct`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
+  CONSTRAINT `fk_cartItems_user1`
+    FOREIGN KEY (`iduser`)
+    REFERENCES `vegesfood`.`user` (`iduser`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `vegesfood`.`wishlist`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `vegesfood`.`wishlist` (
+  `idproduct` INT NOT NULL,
+  `iduser` INT NOT NULL,
+  PRIMARY KEY (`idproduct`, `iduser`),
+  INDEX `fk_user_has_product_product2_idx` (`idproduct` ASC) VISIBLE,
+  INDEX `fk_wishlist_user1_idx` (`iduser` ASC) VISIBLE,
   CONSTRAINT `fk_user_has_product_product2`
     FOREIGN KEY (`idproduct`)
-    REFERENCES `potatoes`.`product` (`idproduct`)
+    REFERENCES `vegesfood`.`product` (`idproduct`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_wishlist_user1`
+    FOREIGN KEY (`iduser`)
+    REFERENCES `vegesfood`.`user` (`iduser`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;

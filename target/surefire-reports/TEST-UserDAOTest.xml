@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="UserDAOTest" time="0.494" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1256"/>
+    <property name="java.class.path" value="E:\ITI JAVA\webProject\veges food\target\test-classes;E:\ITI JAVA\webProject\veges food\target\classes;C:\Users\Hello\.m2\repository\org\hibernate\orm\hibernate-core\6.4.10.Final\hibernate-core-6.4.10.Final.jar;C:\Users\Hello\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Hello\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Hello\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\Hello\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\Hello\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\Hello\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Hello\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\Hello\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\Hello\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\Hello\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\Hello\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\Hello\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\Hello\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\Hello\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\Hello\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Hello\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Hello\.m2\repository\org\hibernate\hibernate-entitymanager\5.4.32.Final\hibernate-entitymanager-5.4.32.Final.jar;C:\Users\Hello\.m2\repository\org\hibernate\hibernate-core\5.4.32.Final\hibernate-core-5.4.32.Final.jar;C:\Users\Hello\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\Hello\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Hello\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\Hello\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Hello\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Hello\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\Hello\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Hello\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Hello\.m2\repository\com\mysql\mysql-connector-j\8.0.32\mysql-connector-j-8.0.32.jar;C:\Users\Hello\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\Hello\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Hello\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Hello\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Hello\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Hello\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Hello\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Hello\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Hello\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\Hello\AppData\Local\Temp\surefire8763570030746415342\surefirebooter-20240905141502940_3.jar C:\Users\Hello\AppData\Local\Temp\surefire8763570030746415342 2024-09-05T14-15-02_641-jvmRun1 surefire-20240905141502940_1tmp surefire_0-20240905141502940_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\ITI JAVA\webProject\veges food\target\test-classes;E:\ITI JAVA\webProject\veges food\target\classes;C:\Users\Hello\.m2\repository\org\hibernate\orm\hibernate-core\6.4.10.Final\hibernate-core-6.4.10.Final.jar;C:\Users\Hello\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Hello\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Hello\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\Hello\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\Hello\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\Hello\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Hello\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\Hello\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\Hello\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\Hello\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\Hello\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\Hello\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\Hello\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\Hello\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\Hello\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Hello\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Hello\.m2\repository\org\hibernate\hibernate-entitymanager\5.4.32.Final\hibernate-entitymanager-5.4.32.Final.jar;C:\Users\Hello\.m2\repository\org\hibernate\hibernate-core\5.4.32.Final\hibernate-core-5.4.32.Final.jar;C:\Users\Hello\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\Hello\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Hello\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\Hello\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Hello\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Hello\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\Hello\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Hello\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Hello\.m2\repository\com\mysql\mysql-connector-j\8.0.32\mysql-connector-j-8.0.32.jar;C:\Users\Hello\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\Hello\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Hello\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Hello\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Hello\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Hello\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Hello\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Hello\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Hello\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Hello"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\ITI JAVA\webProject\veges food"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Hello\AppData\Local\Temp\surefire8763570030746415342\surefirebooter-20240905141502940_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="Hello"/>
+    <property name="stdout.encoding" value="Cp1256"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Hello\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Hello\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="E:\ITI JAVA\webProject\veges food"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1256"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-19\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\devTools\apache-maven-3.9.8\bin;C:\Program Files\Java\jdk-19\bin;C:\Users\Hello\AppData\Local\Microsoft\WindowsApps;C:\Users\Hello\AppData\Local\GitHubDesktop\bin;C:\Users\Hello\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1256"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="testSaveUser" classname="UserDAOTest" time="0.04">
+    <system-out><![CDATA[Hibernate: 
+    /* insert for
+        org.example.entities.User */insert 
+    into
+        user (city, credit, email, job, name, password, street) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        u1_0.iduser,
+        u1_0.city,
+        u1_0.credit,
+        u1_0.email,
+        u1_0.job,
+        u1_0.name,
+        u1_0.password,
+        u1_0.street 
+    from
+        user u1_0 
+    where
+        u1_0.iduser=?
+Hibernate: 
+    /* DELETE 
+    FROM
+        User */ delete 
+    from
+        user
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2024 2:15:13 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: noura]
+Sep 05, 2024 2:15:13 PM org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+Sep 05, 2024 2:15:13 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+Sep 05, 2024 2:15:13 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+Sep 05, 2024 2:15:13 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/vegesfood]
+Sep 05, 2024 2:15:13 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Sep 05, 2024 2:15:13 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Sep 05, 2024 2:15:13 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH10001115: Connection pool size: 20 (min=1)
+Sep 05, 2024 2:15:13 PM org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl constructDialect
+WARN: HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+Sep 05, 2024 2:15:13 PM org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl logSelectedDialect
+WARN: HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+Sep 05, 2024 2:15:13 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Sep 05, 2024 2:15:13 PM org.example.DAOs.GenericDAOImpl save
+INFO: Entity saved successfully
+Sep 05, 2024 2:15:13 PM org.example.DAOs.GenericDAOImpl findById
+INFO: Entity found with ID: 22
+]]></system-err>
+  </testcase>
+  <testcase name="testFindAllUsers" classname="UserDAOTest" time="0.033">
+    <system-out><![CDATA[Hibernate: 
+    /* insert for
+        org.example.entities.User */insert 
+    into
+        user (city, credit, email, job, name, password, street) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    /* insert for
+        org.example.entities.User */insert 
+    into
+        user (city, credit, email, job, name, password, street) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    /* 
+from
+    org.example.entities.User */ select
+        u1_0.iduser,
+        u1_0.city,
+        u1_0.credit,
+        u1_0.email,
+        u1_0.job,
+        u1_0.name,
+        u1_0.password,
+        u1_0.street 
+    from
+        user u1_0
+Hibernate: 
+    /* DELETE 
+    FROM
+        User */ delete 
+    from
+        user
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2024 2:15:13 PM org.example.DAOs.GenericDAOImpl save
+INFO: Entity saved successfully
+Sep 05, 2024 2:15:13 PM org.example.DAOs.GenericDAOImpl save
+INFO: Entity saved successfully
+Sep 05, 2024 2:15:13 PM org.example.DAOs.GenericDAOImpl findAll
+INFO: Entities retrieved successfully
+]]></system-err>
+  </testcase>
+  <testcase name="testUpdateUser" classname="UserDAOTest" time="0.034">
+    <system-out><![CDATA[Hibernate: 
+    /* insert for
+        org.example.entities.User */insert 
+    into
+        user (city, credit, email, job, name, password, street) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        u1_0.iduser,
+        u1_0.city,
+        u1_0.credit,
+        u1_0.email,
+        u1_0.job,
+        u1_0.name,
+        u1_0.password,
+        u1_0.street 
+    from
+        user u1_0 
+    where
+        u1_0.iduser=?
+Hibernate: 
+    /* update
+        for org.example.entities.User */update user 
+    set
+        city=?,
+        credit=?,
+        email=?,
+        job=?,
+        name=?,
+        password=?,
+        street=? 
+    where
+        iduser=?
+Hibernate: 
+    select
+        u1_0.iduser,
+        u1_0.city,
+        u1_0.credit,
+        u1_0.email,
+        u1_0.job,
+        u1_0.name,
+        u1_0.password,
+        u1_0.street 
+    from
+        user u1_0 
+    where
+        u1_0.iduser=?
+Hibernate: 
+    /* DELETE 
+    FROM
+        User */ delete 
+    from
+        user
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2024 2:15:14 PM org.example.DAOs.GenericDAOImpl save
+INFO: Entity saved successfully
+Sep 05, 2024 2:15:14 PM org.example.DAOs.GenericDAOImpl update
+INFO: Entity updated successfully
+Sep 05, 2024 2:15:14 PM org.example.DAOs.GenericDAOImpl findById
+INFO: Entity found with ID: 25
+]]></system-err>
+  </testcase>
+  <testcase name="testDeleteUser" classname="UserDAOTest" time="0.032">
+    <system-out><![CDATA[Hibernate: 
+    /* insert for
+        org.example.entities.User */insert 
+    into
+        user (city, credit, email, job, name, password, street) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        u1_0.iduser,
+        u1_0.city,
+        u1_0.credit,
+        u1_0.email,
+        u1_0.job,
+        u1_0.name,
+        u1_0.password,
+        u1_0.street 
+    from
+        user u1_0 
+    where
+        u1_0.iduser=?
+Hibernate: 
+    select
+        u1_0.iduser,
+        u1_0.city,
+        u1_0.credit,
+        u1_0.email,
+        u1_0.job,
+        u1_0.name,
+        u1_0.password,
+        u1_0.street 
+    from
+        user u1_0 
+    where
+        u1_0.iduser=?
+Hibernate: 
+    /* delete for org.example.entities.User */delete 
+    from
+        user 
+    where
+        iduser=?
+Hibernate: 
+    select
+        u1_0.iduser,
+        u1_0.city,
+        u1_0.credit,
+        u1_0.email,
+        u1_0.job,
+        u1_0.name,
+        u1_0.password,
+        u1_0.street 
+    from
+        user u1_0 
+    where
+        u1_0.iduser=?
+Hibernate: 
+    /* DELETE 
+    FROM
+        User */ delete 
+    from
+        user
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2024 2:15:14 PM org.example.DAOs.GenericDAOImpl save
+INFO: Entity saved successfully
+Sep 05, 2024 2:15:14 PM org.example.DAOs.GenericDAOImpl findById
+INFO: Entity found with ID: 26
+Sep 05, 2024 2:15:14 PM org.example.DAOs.GenericDAOImpl delete
+INFO: Entity deleted successfully
+Sep 05, 2024 2:15:14 PM org.example.DAOs.GenericDAOImpl findById
+WARNING: Entity not found with ID: 26
+]]></system-err>
+  </testcase>
+</testsuite>

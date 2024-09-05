@@ -5,17 +5,20 @@ import jakarta.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "product")
+@Table(name = "product", schema = "vegesfood", indexes = {
+        @Index(name = "fk_product_category1_idx", columnList = "idcategory")
+})
 public class Product {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "idproduct", nullable = false)
     private Integer id;
 
     @Column(name = "name", length = 45)
     private String name;
 
-    @Column(name = "quantity", length = 45)
-    private String quantity;
+    @Column(name = "quantity", precision = 10)
+    private BigDecimal quantity;
 
     @Column(name = "price", precision = 10)
     private BigDecimal price;
@@ -23,17 +26,8 @@ public class Product {
     @Column(name = "img", length = 45)
     private String img;
 
-    @Column(name = "color", length = 45)
-    private String color;
-
-    @Column(name = "cc")
-    private Integer cc;
-
-    @Column(name = "description", length = 45)
-    private String description;
-
-    @Column(name = "model")
-    private Integer model;
+    @Column(name = "size", length = 45)
+    private String size;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "idcategory", nullable = false)
@@ -55,11 +49,11 @@ public class Product {
         this.name = name;
     }
 
-    public String getQuantity() {
+    public BigDecimal getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(String quantity) {
+    public void setQuantity(BigDecimal quantity) {
         this.quantity = quantity;
     }
 
@@ -79,36 +73,12 @@ public class Product {
         this.img = img;
     }
 
-    public String getColor() {
-        return color;
+    public String getSize() {
+        return size;
     }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public Integer getCc() {
-        return cc;
-    }
-
-    public void setCc(Integer cc) {
-        this.cc = cc;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public Integer getModel() {
-        return model;
-    }
-
-    public void setModel(Integer model) {
-        this.model = model;
+    public void setSize(String size) {
+        this.size = size;
     }
 
     public Category getIdcategory() {
