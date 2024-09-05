@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Wishlist.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">VegesFoodWebsite</a> &gt; <a href="index.source.html" class="el_package">org.example.entities</a> &gt; <span class="el_source">Wishlist.java</span></div><h1>Wishlist.java</h1><pre class="source lang-java linenums">package org.example.entities;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = &quot;wishlist&quot;, schema = &quot;vegesfood&quot;, indexes = {
+        @Index(name = &quot;fk_user_has_product_product2_idx&quot;, columnList = &quot;idproduct&quot;),
+        @Index(name = &quot;fk_wishlist_user1_idx&quot;, columnList = &quot;iduser&quot;)
+})
+<span class="nc" id="L10">public class Wishlist {</span>
+    @EmbeddedId
+    private WishlistId id;
+
+    @MapsId(&quot;idproduct&quot;)
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = &quot;idproduct&quot;, nullable = false)
+    private Product idproduct;
+
+    @MapsId(&quot;iduser&quot;)
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = &quot;iduser&quot;, nullable = false)
+    private User iduser;
+
+    public WishlistId getId() {
+<span class="nc" id="L25">        return id;</span>
+    }
+
+    public void setId(WishlistId id) {
+<span class="nc" id="L29">        this.id = id;</span>
+<span class="nc" id="L30">    }</span>
+
+    public Product getIdproduct() {
+<span class="nc" id="L33">        return idproduct;</span>
+    }
+
+    public void setIdproduct(Product idproduct) {
+<span class="nc" id="L37">        this.idproduct = idproduct;</span>
+<span class="nc" id="L38">    }</span>
+
+    public User getIduser() {
+<span class="nc" id="L41">        return iduser;</span>
+    }
+
+    public void setIduser(User iduser) {
+<span class="nc" id="L45">        this.iduser = iduser;</span>
+<span class="nc" id="L46">    }</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

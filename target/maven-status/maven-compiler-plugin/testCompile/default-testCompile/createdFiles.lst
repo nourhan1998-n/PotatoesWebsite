@@ -1,1 +1,3 @@
-UserEntityManagerTest.class
+CategoryDAOTest.class
+ProductDAOTest.class
+UserDAOTest.class
