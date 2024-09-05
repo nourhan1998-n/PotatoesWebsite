@@ -1,0 +1,146 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8ad82611-6c78-4a6e-b095-e6ab2c3a405d\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/../.gitignore\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources.local.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/dataSources.local.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/dataSources.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources/32930dd5-17cf-4d7c-a5e9-a6e64a757994.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources/32930dd5-17cf-4d7c-a5e9-a6e64a757994/storage_v2/_src_/schema/db.fgwAAA.meta\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources/5af5602d-6e21-40fd-83ce-22d0cd64a1c2.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources/5af5602d-6e21-40fd-83ce-22d0cd64a1c2/storage_v2/_src_/schema/potatoes.FcvWLQ.meta\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources/9859fdea-c006-47d9-810f-13581d041c50.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources/9859fdea-c006-47d9-810f-13581d041c50/storage_v2/_src_/schema/potatoes.FcvWLQ.meta\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/jpa.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/jpa.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/potatoes.sql\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/potatoes.sql\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/entities/Cart.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/entities/Cartitem.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entities/Cartitem.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/entities/CartitemId.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entities/CartitemId.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/entities/User.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/entities/User.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../README.md\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"com.intellij.jpb.JpaEntity\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <favorite-branches>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"LOCAL\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"nourhan\" />\r\n                <branch-info repo=\"$PROJECT_DIR$/..\" source=\"nourhan\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </favorite-branches>\r\n    <option name=\"RECENT_COMMON_BRANCH\" value=\"main\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;nourhan1998-n&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/nourhan1998-n/PotatoesWebsite.git&quot;,\r\n    &quot;accountId&quot;: &quot;0857dea9-8c6f-462e-b729-c3ffbec91dd4&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2l1dxb7uUvQfWfUhOE1DcR1UcuO\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;JUnit.CartUserRelationshipTest.executor&quot;: &quot;Debug&quot;,\r\n    &quot;JUnit.CartUserRelationshipTest.testCartUserRelationship.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;nourhan&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;E:/ITI JAVA/webProject/PotatoesWebsite/src/main/resources&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;E:/ITI JAVA/webProject/PotatoesWebsite/PotatoesWebsite/src/main/java/org/example/Main.java&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;DatabaseDriversLRU&quot;: [\r\n      &quot;mysql&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"E:\\ITI JAVA\\webProject\\PotatoesWebsite\\src\\main\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.CartUserRelationshipTest\">\r\n    <configuration name=\"CartUserRelationshipTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PotatoesWebsite\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"CartUserRelationshipTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CartUserRelationshipTest.testCartUserRelationship\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PotatoesWebsite\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"CartUserRelationshipTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testCartUserRelationship\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.CartUserRelationshipTest.testCartUserRelationship\" />\r\n        <item itemvalue=\"JUnit.CartUserRelationshipTest\" />\r\n        <item itemvalue=\"JUnit.CartUserRelationshipTest.testCartUserRelationship\" />\r\n        <item itemvalue=\"JUnit.CartUserRelationshipTest\" />\r\n        <item itemvalue=\"JUnit.CartUserRelationshipTest\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8ad82611-6c78-4a6e-b095-e6ab2c3a405d\" name=\"Changes\" comment=\"\" />\r\n      <created>1724351767180</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1724351767180</updated>\r\n      <workItem from=\"1724351767641\" duration=\"139000\" />\r\n      <workItem from=\"1724352141714\" duration=\"5659000\" />\r\n      <workItem from=\"1724413082251\" duration=\"1437000\" />\r\n      <workItem from=\"1724441968222\" duration=\"2059000\" />\r\n      <workItem from=\"1724499083825\" duration=\"6977000\" />\r\n      <workItem from=\"1724596806686\" duration=\"2247000\" />\r\n      <workItem from=\"1724604777318\" duration=\"833000\" />\r\n      <workItem from=\"1724693761446\" duration=\"2176000\" />\r\n      <workItem from=\"1724761460555\" duration=\"353000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"nourhan\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 95273a933895d2885b755c05a2854bb2284b93a0)
++++ b/.idea/workspace.xml	(date 1725028091736)
+@@ -5,24 +5,18 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="8ad82611-6c78-4a6e-b095-e6ab2c3a405d" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32930dd5-17cf-4d7c-a5e9-a6e64a757994.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32930dd5-17cf-4d7c-a5e9-a6e64a757994/storage_v2/_src_/schema/db.fgwAAA.meta" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5af5602d-6e21-40fd-83ce-22d0cd64a1c2.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5af5602d-6e21-40fd-83ce-22d0cd64a1c2/storage_v2/_src_/schema/potatoes.FcvWLQ.meta" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9859fdea-c006-47d9-810f-13581d041c50.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9859fdea-c006-47d9-810f-13581d041c50/storage_v2/_src_/schema/potatoes.FcvWLQ.meta" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/jpa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CartItemDAO.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CategoryDAO.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/EntityManagerFactorySinglton.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/OrderDAO.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/OrderItemDAO.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/ProductDAO.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserDAO.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserInterestDAO.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/WishlistDAO.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/potatoes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/potatoes.sql" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Cart.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Cartitem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Cartitem.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/CartitemId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/CartitemId.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/User.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/AdminDAO.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -32,8 +26,8 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+-        <option value="Class" />
+         <option value="com.intellij.jpb.JpaEntity" />
++        <option value="Class" />
+       </list>
+     </option>
+   </component>
+@@ -52,7 +46,7 @@
+         </map>
+       </branch-storage>
+     </favorite-branches>
+-    <option name="RECENT_COMMON_BRANCH" value="main" />
++    <option name="RECENT_COMMON_BRANCH" value="nourhan" />
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="ROOT_SYNC" value="SYNC" />
+   </component>
+@@ -82,7 +76,7 @@
+     &quot;JUnit.CartUserRelationshipTest.testCartUserRelationship.executor&quot;: &quot;Run&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;nourhan&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;DAO&quot;,
+     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+     &quot;last_opened_file_path&quot;: &quot;E:/ITI JAVA/webProject/PotatoesWebsite/src/main/resources&quot;,
+     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+@@ -109,6 +103,26 @@
+     </key>
+   </component>
+   <component name="RunManager" selected="JUnit.CartUserRelationshipTest">
++    <configuration default="true" type="JetRunConfigurationType">
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
++      <option name="filePath" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="CartUserRelationshipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="PotatoesWebsite" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="CartUserRelationshipTest" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="CartUserRelationshipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="PotatoesWebsite" />
+       <option name="PACKAGE_NAME" value="" />
+@@ -128,6 +142,16 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <configuration name="CartUserRelationshipTest.testCartUserRelationship" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="PotatoesWebsite" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="CartUserRelationshipTest" />
++      <option name="METHOD_NAME" value="testCartUserRelationship" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration default="true" type="JetRunConfigurationType">
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -145,18 +169,10 @@
+         <item itemvalue="JUnit.CartUserRelationshipTest" />
+         <item itemvalue="JUnit.CartUserRelationshipTest.testCartUserRelationship" />
+         <item itemvalue="JUnit.CartUserRelationshipTest" />
+-        <item itemvalue="JUnit.CartUserRelationshipTest" />
++        <item itemvalue="JUnit.CartUserRelationshipTest.testCartUserRelationship" />
+       </list>
+     </recent_temporary>
+   </component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+-      </set>
+-    </attachedChunks>
+-  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -174,6 +190,7 @@
+       <workItem from="1724604777318" duration="833000" />
+       <workItem from="1724693761446" duration="2176000" />
+       <workItem from="1724761460555" duration="353000" />
++      <workItem from="1724951980609" duration="590000" />
+     </task>
+     <servers />
+   </component>

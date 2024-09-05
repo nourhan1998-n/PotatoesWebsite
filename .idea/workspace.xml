@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ad82611-6c78-4a6e-b095-e6ab2c3a405d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/EntityManagerFactorySinglton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_30_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_30_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_31_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_31_PM__Changes_.xml" afterDir="false" />
@@ -19,6 +21,7 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-09-03T23-00-14_716.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-UserEntityManagerTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/UserEntityManagerTest.txt" beforeDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,7 @@
       <list>
         <option value="Interface" />
         <option value="com.intellij.jpb.JpaEntity" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -97,7 +101,6 @@
     "JUnit.UserEntityManagerTest.testPersistUser.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "services",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/ITI JAVA/Async/AJAX-day1",
     "node.js.detected.package.eslint": "true",
