@@ -1,14 +1,14 @@
 package org.example.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
-@Table(name = "user")
+@Table(name = "user", schema = "vegesfood", uniqueConstraints = {
+        @UniqueConstraint(name = "email_UNIQUE", columnNames = {"email"})
+})
 public class User {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "iduser", nullable = false)
     private Integer id;
 

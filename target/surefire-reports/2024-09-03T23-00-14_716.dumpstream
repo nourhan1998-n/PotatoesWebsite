@@ -1,0 +1,5 @@
+# Created at 2024-09-03T23:00:15.137
+Boot Manifest-JAR contains absolute paths in classpath 'E:\ITI JAVA\webProject\veges food\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

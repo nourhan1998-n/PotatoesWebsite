@@ -5,9 +5,12 @@ import jakarta.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "product")
+@Table(name = "product", schema = "vegesfood", indexes = {
+        @Index(name = "fk_product_category1_idx", columnList = "idcategory")
+})
 public class Product {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "idproduct", nullable = false)
     private Integer id;
 

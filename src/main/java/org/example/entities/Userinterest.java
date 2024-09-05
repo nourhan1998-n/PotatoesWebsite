@@ -3,7 +3,10 @@ package org.example.entities;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "userinterests")
+@Table(name = "userinterests", schema = "vegesfood", indexes = {
+        @Index(name = "fk_user_has_category_user1_idx", columnList = "iduser"),
+        @Index(name = "fk_user_has_category_category1_idx", columnList = "idcategory")
+})
 public class Userinterest {
     @EmbeddedId
     private UserinterestId id;

@@ -9,19 +9,11 @@ import java.util.Objects;
 @Embeddable
 public class WishlistId implements java.io.Serializable {
     private static final long serialVersionUID = 8452101642929395215L;
-    @Column(name = "iduser", nullable = false)
-    private Integer iduser;
-
     @Column(name = "idproduct", nullable = false)
     private Integer idproduct;
 
-    public Integer getIduser() {
-        return iduser;
-    }
-
-    public void setIduser(Integer iduser) {
-        this.iduser = iduser;
-    }
+    @Column(name = "iduser", nullable = false)
+    private Integer iduser;
 
     public Integer getIdproduct() {
         return idproduct;
@@ -29,6 +21,14 @@ public class WishlistId implements java.io.Serializable {
 
     public void setIdproduct(Integer idproduct) {
         this.idproduct = idproduct;
+    }
+
+    public Integer getIduser() {
+        return iduser;
+    }
+
+    public void setIduser(Integer iduser) {
+        this.iduser = iduser;
     }
 
     @Override
