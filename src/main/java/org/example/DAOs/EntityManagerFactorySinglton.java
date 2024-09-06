@@ -1,6 +1,4 @@
 package org.example.DAOs;
-
-
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
