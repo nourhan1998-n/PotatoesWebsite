@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 @Table(name = "admin", schema = "vegesfood", uniqueConstraints = {
         @UniqueConstraint(name = "email_UNIQUE", columnNames = {"email"})
 })
-public class Admin {
+public class Admin implements Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "idadmin", nullable = false)
