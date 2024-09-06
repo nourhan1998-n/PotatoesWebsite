@@ -9,7 +9,7 @@ public class EntityManagerFactorySinglton {
 
     public synchronized EntityManagerFactory getEntityManagerFactory(){
         if(emf == null){
-            return emf = Persistence.createEntityManagerFactory("noura");
+            return emf = Persistence.createEntityManagerFactory("vegesfood");
         }
         return emf;
     }

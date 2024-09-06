@@ -21,7 +21,7 @@ public class ProductDAOTest {
     @BeforeAll
     public static void setUpClass() {
         // Initialize EntityManagerFactory and DAO
-        emf = Persistence.createEntityManagerFactory("noura");
+        emf = Persistence.createEntityManagerFactory("vegesfood");
         productDAO = new ProductDAO();
     }
 

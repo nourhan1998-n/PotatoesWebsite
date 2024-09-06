@@ -19,7 +19,7 @@ public class UserDAOTest {
     @BeforeAll
     public static void setUpClass() {
         // Initialize EntityManagerFactory and DAO
-        emf = Persistence.createEntityManagerFactory("noura");
+        emf = Persistence.createEntityManagerFactory("vegesfood");
         userDAO = new UserDAO();
     }
 
