@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 
 public class UserDAO extends GenericDAOImpl<User, Integer> {
     private static final Logger logger = Logger.getLogger(UserDAO.class.getName());
-    private EntityManagerFactory emf;
+    private final EntityManagerFactory emf;
     public UserDAO() {
         super(User.class);
         this.emf =  new EntityManagerFactorySinglton().getEntityManagerFactory();
@@ -34,6 +34,8 @@ public class UserDAO extends GenericDAOImpl<User, Integer> {
         }
         return user;
     }
+
+
 
 //    public static void main(String[] args) {
 //        // Create an instance of UserDAOImpl
