@@ -13,7 +13,7 @@ public class ProductDAO extends GenericDAOImpl<Product, Integer> {
         super(Product.class);
         this.emf =  new EntityManagerFactorySinglton().getEntityManagerFactory();
     }
-    public List<Product> findByName(String productName) {
+        public List<Product> findByName(String productName) {
         EntityManager em = emf.createEntityManager();
         try {
             return em.createQuery("SELECT p FROM Product p WHERE p.name = :productName", Product.class)
