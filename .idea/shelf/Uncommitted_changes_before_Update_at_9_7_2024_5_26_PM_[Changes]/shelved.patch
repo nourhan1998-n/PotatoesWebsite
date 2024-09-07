@@ -1,0 +1,638 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8ad82611-6c78-4a6e-b095-e6ab2c3a405d\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/veges food.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/controller/CartitemController.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/services/CartitemService.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/services/CartitemServiceImpl.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/compiler.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_3_47_PM_[Changes]1/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_3_47_PM__Changes_1.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_24_PM_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_24_PM__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_25_PM_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_25_PM__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_26_PM_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_26_PM__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_28_PM_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_28_PM_[Changes]1/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_28_PM__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_28_PM__Changes_1.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_14_PM_[Changes]1/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_14_PM__Changes_1.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_30_PM_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_30_PM__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_31_PM_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_31_PM__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/DAOs/CartItemDAO.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/DAOs/CartItemDAO.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/DAOs/ProductDAO.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/DAOs/ProductDAO.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"com.intellij.jpb.JpaEntity\" />\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <favorite-branches>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"LOCAL\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"nourhan\" />\r\n                <branch-info repo=\"$PROJECT_DIR$/..\" source=\"nourhan\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </favorite-branches>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"DAO-fixing\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_COMMON_BRANCH\" value=\"nourhan\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;nourhan1998-n&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/nourhan1998-n/PotatoesWebsite.git&quot;,\r\n    &quot;accountId&quot;: &quot;0857dea9-8c6f-462e-b729-c3ffbec91dd4&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2l1dxb7uUvQfWfUhOE1DcR1UcuO\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.UserDAO.executor\": \"Run\",\r\n    \"JUnit.CartUserRelationshipTest.executor\": \"Run\",\r\n    \"JUnit.CartUserRelationshipTest.testCartUserRelationship.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"E:/ITI JAVA/webProject/veges food\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"onboarding.tips.debug.path\": \"E:/ITI JAVA/webProject/PotatoesWebsite/PotatoesWebsite/src/main/java/org/example/Main.java\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"application.passwordSafe\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"DatabaseDriversLRU\": [\r\n      \"mysql\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"E:\\ITI JAVA\\webProject\\PotatoesWebsite\\src\\main\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.ProductDAOTest\">\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CartUserRelationshipTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PotatoesWebsite\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"CartUserRelationshipTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CartUserRelationshipTest.testCartUserRelationship\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PotatoesWebsite\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"CartUserRelationshipTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testCartUserRelationship\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CategoryDAOTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PotatoesWebsite\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"CategoryDAOTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CategoryDAOTest.testDeleteCategory\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PotatoesWebsite\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"CategoryDAOTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testDeleteCategory\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductDAOTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PotatoesWebsite\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ProductDAOTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductDAOTest.testDeleteProduct\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PotatoesWebsite\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ProductDAOTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testDeleteProduct\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductDAOTest.testUpdateProduct\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"PotatoesWebsite\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ProductDAOTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testUpdateProduct\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.ProductDAOTest.testUpdateProduct\" />\r\n        <item itemvalue=\"JUnit.ProductDAOTest.testDeleteProduct\" />\r\n        <item itemvalue=\"JUnit.ProductDAOTest\" />\r\n        <item itemvalue=\"JUnit.CategoryDAOTest.testDeleteCategory\" />\r\n        <item itemvalue=\"JUnit.CategoryDAOTest\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8ad82611-6c78-4a6e-b095-e6ab2c3a405d\" name=\"Changes\" comment=\"\" />\r\n      <created>1724351767180</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1724351767180</updated>\r\n      <workItem from=\"1724351767641\" duration=\"139000\" />\r\n      <workItem from=\"1724352141714\" duration=\"5659000\" />\r\n      <workItem from=\"1724413082251\" duration=\"1437000\" />\r\n      <workItem from=\"1724441968222\" duration=\"2059000\" />\r\n      <workItem from=\"1724499083825\" duration=\"6977000\" />\r\n      <workItem from=\"1724596806686\" duration=\"2247000\" />\r\n      <workItem from=\"1724604777318\" duration=\"833000\" />\r\n      <workItem from=\"1724693761446\" duration=\"2176000\" />\r\n      <workItem from=\"1724761460555\" duration=\"353000\" />\r\n      <workItem from=\"1724951980609\" duration=\"590000\" />\r\n      <workItem from=\"1725702687651\" duration=\"248000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"nourhan\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7db8ab7e19a4c7d3c9019983dc6765a8178f929b)
++++ b/.idea/workspace.xml	(date 1725718887582)
+@@ -5,34 +5,21 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="8ad82611-6c78-4a6e-b095-e6ab2c3a405d" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/veges food.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/CartitemController.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/CartitemService.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/CartitemServiceImpl.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_3_47_PM_[Changes]1/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_3_47_PM__Changes_1.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_24_PM_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_24_PM__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_25_PM_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_25_PM__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_26_PM_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_26_PM__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_28_PM_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_28_PM_[Changes]1/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_28_PM__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_5_28_PM__Changes_1.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_14_PM_[Changes]1/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_14_PM__Changes_1.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_30_PM_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_30_PM__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_31_PM_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_31_PM__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/CategoryController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/CategoryEnum.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Person.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/AdminService.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/AdminServiceImpl.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/CategoryService.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/CategoryServiceImpl.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CartItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CartItemDAO.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/AdminDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/AdminDAO.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CategoryDAO.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/ProductDAO.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserDAO.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Admin.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Category.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/User.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -99,9 +86,9 @@
+     "JUnit.CartUserRelationshipTest.testCartUserRelationship.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "main",
++    "git-widget-placeholder": "Merging main",
+     "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "E:/ITI JAVA/webProject/veges food",
++    "last_opened_file_path": "E:/ITI JAVA/webProject/PotatoesWebsite/src/main/resources",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+@@ -232,7 +219,6 @@
+       <workItem from="1724693761446" duration="2176000" />
+       <workItem from="1724761460555" duration="353000" />
+       <workItem from="1724951980609" duration="590000" />
+-      <workItem from="1725702687651" duration="248000" />
+     </task>
+     <servers />
+   </component>
+Index: src/main/java/org/example/DAOs/ProductDAO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.DAOs;\r\n\r\nimport jakarta.persistence.EntityManager;\r\nimport jakarta.persistence.EntityManagerFactory;\r\nimport org.example.entities.Product;\r\n\r\nimport java.util.List;\r\n\r\npublic class ProductDAO extends GenericDAOImpl<Product, Integer> {\r\n\r\n    private EntityManagerFactory emf;\r\n    public ProductDAO(){\r\n        super(Product.class);\r\n        this.emf =  new EntityManagerFactorySinglton().getEntityManagerFactory();\r\n    }\r\n    public List<Product> findByCategoryId(Integer categoryId) {\r\n        EntityManager em = emf.createEntityManager();\r\n        try {\r\n            return em.createQuery(\"SELECT p FROM Product p WHERE p.idcategory.id = :categoryId\", Product.class)\r\n                    .setParameter(\"categoryId\", categoryId)\r\n                    .getResultList();\r\n        } finally {\r\n            em.close();\r\n        }\r\n    }\r\n\r\n    public List<Product> findByCategoryName(String categoryName) {\r\n        EntityManager em = emf.createEntityManager();\r\n        try {\r\n            return em.createQuery(\"SELECT p FROM Product p WHERE p.idcategory.name = :categoryName\", Product.class)\r\n                    .setParameter(\"categoryName\", categoryName)\r\n                    .getResultList();\r\n        } finally {\r\n            em.close();\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/DAOs/ProductDAO.java b/src/main/java/org/example/DAOs/ProductDAO.java
+--- a/src/main/java/org/example/DAOs/ProductDAO.java	(revision 7db8ab7e19a4c7d3c9019983dc6765a8178f929b)
++++ b/src/main/java/org/example/DAOs/ProductDAO.java	(date 1725718302731)
+@@ -13,6 +13,16 @@
+         super(Product.class);
+         this.emf =  new EntityManagerFactorySinglton().getEntityManagerFactory();
+     }
++        public List<Product> findByName(String productName) {
++        EntityManager em = emf.createEntityManager();
++        try {
++            return em.createQuery("SELECT p FROM Product p WHERE p.name = :productName", Product.class)
++                    .setParameter("productName", productName)
++                    .getResultList();
++        } finally {
++            em.close();
++        }
++    }
+     public List<Product> findByCategoryId(Integer categoryId) {
+         EntityManager em = emf.createEntityManager();
+         try {
+Index: src/main/java/org/example/entities/Person.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/entities/Person.java b/src/main/java/org/example/entities/Person.java
+new file mode 100644
+--- /dev/null	(date 1725718302736)
++++ b/src/main/java/org/example/entities/Person.java	(date 1725718302736)
+@@ -0,0 +1,16 @@
++package org.example.entities;
++
++public interface Person {
++
++     Integer getId() ;
++
++     void setId(Integer id);
++
++     String getEmail();
++
++     void setEmail(String email);
++
++     String getPassword();
++
++     void setPassword(String password);
++}
+Index: src/main/java/org/example/entities/CategoryEnum.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/entities/CategoryEnum.java b/src/main/java/org/example/entities/CategoryEnum.java
+new file mode 100644
+--- /dev/null	(date 1725718302735)
++++ b/src/main/java/org/example/entities/CategoryEnum.java	(date 1725718302735)
+@@ -0,0 +1,8 @@
++package org.example.entities;
++
++public enum CategoryEnum {
++    VEGETABLES,
++    FRUITS,
++    JUICE,
++    DRIED;
++}
+Index: src/main/java/org/example/controller/CategoryController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/controller/CategoryController.java b/src/main/java/org/example/controller/CategoryController.java
+new file mode 100644
+--- /dev/null	(date 1725718302733)
++++ b/src/main/java/org/example/controller/CategoryController.java	(date 1725718302733)
+@@ -0,0 +1,116 @@
++package org.example.controller;
++
++import org.example.entities.Category;
++import org.example.services.CategoryService;
++import org.example.services.CategoryServiceImpl; // Assuming you have an implementation class
++
++import jakarta.servlet.ServletException;
++import jakarta.servlet.annotation.WebServlet;
++import jakarta.servlet.http.HttpServlet;
++import jakarta.servlet.http.HttpServletRequest;
++import jakarta.servlet.http.HttpServletResponse;
++import java.io.IOException;
++
++@WebServlet("/category")
++public class CategoryController extends HttpServlet {
++    private CategoryService categoryService;
++
++    @Override
++    public void init() throws ServletException {
++        super.init();
++        // Initialize the CategoryService (consider using dependency injection if possible)
++        categoryService = new CategoryServiceImpl();
++    }
++
++    @Override
++    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
++        String action = request.getParameter("action");
++
++        if (action == null) {
++            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Action parameter is missing.");
++            return;
++        }
++
++        switch (action) {
++            case "add":
++                handleAddCategory(request, response);
++                break;
++            case "removeByName":
++                handleRemoveCategoryByName(request, response);
++                break;
++            case "removeById":
++                handleRemoveCategoryById(request, response);
++                break;
++            case "getByName":
++                handleGetCategoryByName(request, response);
++                break;
++            case "getById":
++                handleGetCategoryById(request, response);
++                break;
++            default:
++                response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Unknown action: " + action);
++        }
++    }
++
++    private void handleAddCategory(HttpServletRequest request, HttpServletResponse response) throws IOException {
++        String categoryName = request.getParameter("categoryName");
++        if (categoryName == null || categoryName.isEmpty()) {
++            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Category name is required.");
++            return;
++        }
++        categoryService.addCategoryByName(categoryName);
++        response.sendRedirect("success.jsp"); // Redirect or send a success response
++    }
++
++    private void handleRemoveCategoryByName(HttpServletRequest request, HttpServletResponse response) throws IOException {
++        String categoryName = request.getParameter("categoryName");
++        if (categoryName == null || categoryName.isEmpty()) {
++            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Category name is required.");
++            return;
++        }
++        categoryService.removeCategoryByName(categoryName);
++        response.sendRedirect("success.jsp"); // Redirect or send a success response
++    }
++
++    private void handleRemoveCategoryById(HttpServletRequest request, HttpServletResponse response) throws IOException {
++        String categoryIdStr = request.getParameter("categoryID");
++        if (categoryIdStr == null || categoryIdStr.isEmpty()) {
++            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Category ID is required.");
++            return;
++        }
++        try {
++            Integer categoryID = Integer.valueOf(categoryIdStr);
++            categoryService.removeCategoryById(categoryID);
++            response.sendRedirect("success.jsp"); // Redirect or send a success response
++        } catch (NumberFormatException e) {
++            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Invalid category ID.");
++        }
++    }
++
++    private void handleGetCategoryByName(HttpServletRequest request, HttpServletResponse response) throws IOException {
++        String categoryName = request.getParameter("categoryName");
++        if (categoryName == null || categoryName.isEmpty()) {
++            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Category name is required.");
++            return;
++        }
++        Category category = categoryService.getCategoryByName(categoryName);
++        request.setAttribute("category", category);
++        //request.getRequestDispatcher("category.jsp").forward(request, response); // Forward to a JSP page
++    }
++
++    private void handleGetCategoryById(HttpServletRequest request, HttpServletResponse response) throws IOException {
++        String categoryIdStr = request.getParameter("categoryID");
++        if (categoryIdStr == null || categoryIdStr.isEmpty()) {
++            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Category ID is required.");
++            return;
++        }
++        try {
++            Integer categoryID = Integer.valueOf(categoryIdStr);
++            Category category = categoryService.getCategoryByID(categoryID);
++            request.setAttribute("category", category);
++            //request.getRequestDispatcher("category.jsp").forward(request, response); // Forward to a JSP page
++        } catch (NumberFormatException e) {
++            response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Invalid category ID.");
++        }
++    }
++}
+Index: src/main/java/org/example/entities/User.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.entities;\r\n\r\nimport jakarta.persistence.*;\r\n\r\n@Entity\r\n@Table(name = \"user\", schema = \"vegesfood\", uniqueConstraints = {\r\n        @UniqueConstraint(name = \"email_UNIQUE\", columnNames = {\"email\"})\r\n})\r\npublic class User {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n    @Column(name = \"iduser\", nullable = false)\r\n    private Integer id;\r\n\r\n    @Column(name = \"name\", length = 45)\r\n    private String name;\r\n\r\n    @Column(name = \"email\", length = 45)\r\n    private String email;\r\n\r\n    @Column(name = \"password\", length = 45)\r\n    private String password;\r\n\r\n    @Column(name = \"job\", length = 45)\r\n    private String job;\r\n\r\n    @Column(name = \"credit\", length = 45)\r\n    private String credit;\r\n\r\n    @Column(name = \"city\", length = 45)\r\n    private String city;\r\n\r\n    @Column(name = \"street\", length = 45)\r\n    private String street;\r\n\r\n    public Integer getId() {\r\n        return id;\r\n    }\r\n\r\n    public void setId(Integer id) {\r\n        this.id = id;\r\n    }\r\n\r\n    public String getName() {\r\n        return name;\r\n    }\r\n\r\n    public void setName(String name) {\r\n        this.name = name;\r\n    }\r\n\r\n    public String getEmail() {\r\n        return email;\r\n    }\r\n\r\n    public void setEmail(String email) {\r\n        this.email = email;\r\n    }\r\n\r\n    public String getPassword() {\r\n        return password;\r\n    }\r\n\r\n    public void setPassword(String password) {\r\n        this.password = password;\r\n    }\r\n\r\n    public String getJob() {\r\n        return job;\r\n    }\r\n\r\n    public void setJob(String job) {\r\n        this.job = job;\r\n    }\r\n\r\n    public String getCredit() {\r\n        return credit;\r\n    }\r\n\r\n    public void setCredit(String credit) {\r\n        this.credit = credit;\r\n    }\r\n\r\n    public String getCity() {\r\n        return city;\r\n    }\r\n\r\n    public void setCity(String city) {\r\n        this.city = city;\r\n    }\r\n\r\n    public String getStreet() {\r\n        return street;\r\n    }\r\n\r\n    public void setStreet(String street) {\r\n        this.street = street;\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/entities/User.java b/src/main/java/org/example/entities/User.java
+--- a/src/main/java/org/example/entities/User.java	(revision 7db8ab7e19a4c7d3c9019983dc6765a8178f929b)
++++ b/src/main/java/org/example/entities/User.java	(date 1725718302736)
+@@ -6,7 +6,7 @@
+ @Table(name = "user", schema = "vegesfood", uniqueConstraints = {
+         @UniqueConstraint(name = "email_UNIQUE", columnNames = {"email"})
+ })
+-public class User {
++public class User implements Person{
+     @Id
+     @GeneratedValue(strategy = GenerationType.IDENTITY)
+     @Column(name = "iduser", nullable = false)
+Index: src/main/java/org/example/entities/Admin.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.entities;\r\n\r\nimport jakarta.persistence.*;\r\n\r\n@Entity\r\n@Table(name = \"admin\", schema = \"vegesfood\", uniqueConstraints = {\r\n        @UniqueConstraint(name = \"email_UNIQUE\", columnNames = {\"email\"})\r\n})\r\npublic class Admin {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n    @Column(name = \"idadmin\", nullable = false)\r\n    private Integer id;\r\n\r\n    @Column(name = \"email\", length = 45)\r\n    private String email;\r\n\r\n    @Column(name = \"password\", length = 45)\r\n    private String password;\r\n\r\n    public Integer getId() {\r\n        return id;\r\n    }\r\n\r\n    public void setId(Integer id) {\r\n        this.id = id;\r\n    }\r\n\r\n    public String getEmail() {\r\n        return email;\r\n    }\r\n\r\n    public void setEmail(String email) {\r\n        this.email = email;\r\n    }\r\n\r\n    public String getPassword() {\r\n        return password;\r\n    }\r\n\r\n    public void setPassword(String password) {\r\n        this.password = password;\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/entities/Admin.java b/src/main/java/org/example/entities/Admin.java
+--- a/src/main/java/org/example/entities/Admin.java	(revision 7db8ab7e19a4c7d3c9019983dc6765a8178f929b)
++++ b/src/main/java/org/example/entities/Admin.java	(date 1725718302734)
+@@ -6,7 +6,7 @@
+ @Table(name = "admin", schema = "vegesfood", uniqueConstraints = {
+         @UniqueConstraint(name = "email_UNIQUE", columnNames = {"email"})
+ })
+-public class Admin {
++public class Admin implements Person {
+     @Id
+     @GeneratedValue(strategy = GenerationType.IDENTITY)
+     @Column(name = "idadmin", nullable = false)
+Index: src/main/java/org/example/entities/Category.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.entities;\r\n\r\nimport jakarta.persistence.*;\r\n\r\n@Entity\r\n@Table(name = \"category\", schema = \"vegesfood\")\r\npublic class Category {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n    @Column(name = \"idcategory\", nullable = false)\r\n    private Integer id;\r\n\r\n    @Column(name = \"name\", length = 45)\r\n    private String name;\r\n\r\n    public Integer getId() {\r\n        return id;\r\n    }\r\n\r\n    public void setId(Integer id) {\r\n        this.id = id;\r\n    }\r\n\r\n    public String getName() {\r\n        return name;\r\n    }\r\n\r\n    public void setName(String name) {\r\n        this.name = name;\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/entities/Category.java b/src/main/java/org/example/entities/Category.java
+--- a/src/main/java/org/example/entities/Category.java	(revision 7db8ab7e19a4c7d3c9019983dc6765a8178f929b)
++++ b/src/main/java/org/example/entities/Category.java	(date 1725718302735)
+@@ -5,14 +5,17 @@
+ @Entity
+ @Table(name = "category", schema = "vegesfood")
+ public class Category {
++
+     @Id
+     @GeneratedValue(strategy = GenerationType.IDENTITY)
+     @Column(name = "idcategory", nullable = false)
+     private Integer id;
+ 
+-    @Column(name = "name", length = 45)
+-    private String name;
++    @Enumerated(EnumType.STRING)  // Store the enum as a string in the database
++    @Column(name = "name", length = 45, nullable = false)
++    private CategoryEnum name;
+ 
++    // Getters and Setters
+     public Integer getId() {
+         return id;
+     }
+@@ -21,12 +24,11 @@
+         this.id = id;
+     }
+ 
+-    public String getName() {
++    public CategoryEnum getName() {
+         return name;
+     }
+ 
+-    public void setName(String name) {
++    public void setName(CategoryEnum name) {
+         this.name = name;
+     }
+-
+-}
+\ No newline at end of file
++}
+Index: src/main/java/org/example/DAOs/CategoryDAO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.DAOs;\r\n\r\nimport org.example.entities.Category;\r\n\r\npublic class CategoryDAO extends GenericDAOImpl<Category, Integer> {\r\n    public CategoryDAO(){\r\n        super(Category.class);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/DAOs/CategoryDAO.java b/src/main/java/org/example/DAOs/CategoryDAO.java
+--- a/src/main/java/org/example/DAOs/CategoryDAO.java	(revision 7db8ab7e19a4c7d3c9019983dc6765a8178f929b)
++++ b/src/main/java/org/example/DAOs/CategoryDAO.java	(date 1725718302730)
+@@ -1,9 +1,39 @@
+ package org.example.DAOs;
+ 
++import jakarta.persistence.EntityManager;
++import jakarta.persistence.EntityManagerFactory;
++import jakarta.persistence.PersistenceException;
++import jakarta.persistence.TypedQuery;
+ import org.example.entities.Category;
++import org.example.entities.User;
++
++import java.util.logging.Level;
++import java.util.logging.Logger;
+ 
+ public class CategoryDAO extends GenericDAOImpl<Category, Integer> {
++    private static final Logger logger = Logger.getLogger(UserDAO.class.getName());
++    private final EntityManagerFactory emf;
++
+     public CategoryDAO(){
+         super(Category.class);
++        this.emf =  new EntityManagerFactorySinglton().getEntityManagerFactory();
+     }
++
++
++    public Category findByName(String categoryName) {
++        EntityManager em = emf.createEntityManager();
++        Category category = null;
++        try {
++            TypedQuery<Category> query = em.createQuery("SELECT c FROM Category c WHERE c.name = :name", Category.class);
++            query.setParameter("name", categoryName);
++            category = query.getSingleResult();
++            logger.info("Category found with name: " + categoryName);
++        } catch (PersistenceException e) {
++            logger.log(Level.SEVERE, "Error finding category with name: " + categoryName, e);
++        } finally {
++            em.close();
++        }
++        return category;
++    }
++
+ }
+Index: src/main/java/org/example/DAOs/AdminDAO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.DAOs;\r\n\r\nimport org.example.entities.Admin;\r\n\r\npublic class AdminDAO extends GenericDAOImpl<Admin, Integer> {\r\n    public AdminDAO(){\r\n        super(Admin.class);\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/DAOs/AdminDAO.java b/src/main/java/org/example/DAOs/AdminDAO.java
+--- a/src/main/java/org/example/DAOs/AdminDAO.java	(revision 7db8ab7e19a4c7d3c9019983dc6765a8178f929b)
++++ b/src/main/java/org/example/DAOs/AdminDAO.java	(date 1725718302730)
+@@ -1,10 +1,35 @@
+ package org.example.DAOs;
+ 
++import jakarta.persistence.EntityManager;
++import jakarta.persistence.EntityManagerFactory;
++import jakarta.persistence.PersistenceException;
++import jakarta.persistence.TypedQuery;
+ import org.example.entities.Admin;
+ 
++import java.util.logging.Level;
++import java.util.logging.Logger;
++
+ public class AdminDAO extends GenericDAOImpl<Admin, Integer> {
++    private static final Logger logger = Logger.getLogger(AdminDAO.class.getName());
++    private final EntityManagerFactory emf;
+     public AdminDAO(){
+         super(Admin.class);
+-    }
++        this.emf =  new EntityManagerFactorySinglton().getEntityManagerFactory();
+ 
++    }
++    public Admin findByEmail(String email) {
++        EntityManager em = emf.createEntityManager();
++        Admin admin = null;
++        try {
++            TypedQuery<Admin> query = em.createQuery("SELECT a FROM Admin a WHERE a.email = :email", Admin.class);
++            query.setParameter("email", email);
++            admin = query.getSingleResult();
++            logger.info("Admin found with email: " + email);
++        } catch (PersistenceException e) {
++            logger.log(Level.SEVERE, "Error finding admin with email: " + email, e);
++        } finally {
++            em.close();
++        }
++        return admin;
++    }
+ }
+Index: src/main/java/org/example/DAOs/UserDAO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.DAOs;\r\n\r\nimport jakarta.persistence.EntityManager;\r\nimport jakarta.persistence.EntityManagerFactory;\r\nimport jakarta.persistence.PersistenceException;\r\nimport jakarta.persistence.TypedQuery;\r\nimport org.example.entities.*;\r\nimport java.util.logging.Level;\r\nimport java.util.logging.Logger;\r\n\r\npublic class UserDAO extends GenericDAOImpl<User, Integer> {\r\n    private static final Logger logger = Logger.getLogger(UserDAO.class.getName());\r\n    private EntityManagerFactory emf;\r\n    public UserDAO() {\r\n        super(User.class);\r\n        this.emf =  new EntityManagerFactorySinglton().getEntityManagerFactory();\r\n    }\r\n//    A TypedQuery in Java Persistence API (JPA) is a type-safe query\r\n//    interface that allows you to execute JPQL (Java Persistence Query Language)\r\n//    or native SQL queries while ensuring that the results are of the expected type.\r\n\r\n    public User findByEmail(String email) {\r\n        EntityManager em = emf.createEntityManager();\r\n        User user = null;\r\n        try {\r\n            TypedQuery<User> query = em.createQuery(\"SELECT u FROM User u WHERE u.email = :email\", User.class);\r\n            query.setParameter(\"email\", email);\r\n            user = query.getSingleResult();\r\n            logger.info(\"User found with email: \" + email);\r\n        } catch (PersistenceException e) {\r\n            logger.log(Level.SEVERE, \"Error finding user with email: \" + email, e);\r\n        } finally {\r\n            em.close();\r\n        }\r\n        return user;\r\n    }\r\n\r\n//    public static void main(String[] args) {\r\n//        // Create an instance of UserDAOImpl\r\n//        UserDAO userDAO = new UserDAO();\r\n//\r\n//        // Create a new User instance\r\n//        User newUser = new User();\r\n//        newUser.setId(3);\r\n//        newUser.setName(\"John Doe\");\r\n//        newUser.setEmail(\"john3.doe@example.com\");\r\n//        newUser.setPassword(\"password123\");\r\n//        newUser.setJob(\"Developer\");\r\n//        newUser.setCredit(\"5000\");\r\n//        newUser.setCity(\"New York\");\r\n//        newUser.setStreet(\"5th Avenue\");\r\n//\r\n//        // Save the User to the database\r\n//        userDAO.save(newUser);\r\n//        System.out.println(\"User created successfully!\");\r\n//\r\n//        // Retrieve all Users from the database\r\n//        List<User> allUsers = userDAO.findAll();\r\n//\r\n//        // Print all User details\r\n//        System.out.println(\"All Users:\");\r\n//        for (User user : allUsers) {\r\n//            System.out.println(user);\r\n//        }\r\n//\r\n//\r\n//    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/DAOs/UserDAO.java b/src/main/java/org/example/DAOs/UserDAO.java
+--- a/src/main/java/org/example/DAOs/UserDAO.java	(revision 7db8ab7e19a4c7d3c9019983dc6765a8178f929b)
++++ b/src/main/java/org/example/DAOs/UserDAO.java	(date 1725718302732)
+@@ -10,7 +10,7 @@
+ 
+ public class UserDAO extends GenericDAOImpl<User, Integer> {
+     private static final Logger logger = Logger.getLogger(UserDAO.class.getName());
+-    private EntityManagerFactory emf;
++    private final EntityManagerFactory emf;
+     public UserDAO() {
+         super(User.class);
+         this.emf =  new EntityManagerFactorySinglton().getEntityManagerFactory();
+@@ -35,6 +35,8 @@
+         return user;
+     }
+ 
++
++
+ //    public static void main(String[] args) {
+ //        // Create an instance of UserDAOImpl
+ //        UserDAO userDAO = new UserDAO();
+Index: src/main/java/org/example/services/CategoryServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/services/CategoryServiceImpl.java b/src/main/java/org/example/services/CategoryServiceImpl.java
+new file mode 100644
+--- /dev/null	(date 1725718302739)
++++ b/src/main/java/org/example/services/CategoryServiceImpl.java	(date 1725718302739)
+@@ -0,0 +1,41 @@
++package org.example.services;
++
++import org.example.DAOs.CategoryDAO;
++import org.example.entities.Category;
++import org.example.entities.CategoryEnum;
++
++public class CategoryServiceImpl implements CategoryService {
++
++    private final CategoryDAO categoryDAO;
++
++    // Constructor to initialize CategoryDAO
++    public CategoryServiceImpl() {
++        this.categoryDAO = new CategoryDAO();
++    }
++
++    @Override
++    public void addCategoryByName(String categoryName) {
++        Category category = new Category();
++        CategoryEnum categoryEnum = CategoryEnum.valueOf(categoryName);
++        category.setName(categoryEnum);
++        categoryDAO.save(category);
++    }
++    @Override
++    public void removeCategoryByName(String categoryName){
++        categoryDAO.delete(getCategoryByName(categoryName));
++    }
++    @Override
++    public void removeCategoryById(Integer categoryID){
++        categoryDAO.delete(getCategoryByID(categoryID));
++    }
++
++    @Override
++    public Category getCategoryByName(String categoryName) {
++        return categoryDAO.findByName(categoryName); // Corrected method
++    }
++    public Category getCategoryByID(Integer categoryID){
++        return categoryDAO.findById(categoryID);
++    }
++
++
++}
+Index: src/main/java/org/example/services/CategoryService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/services/CategoryService.java b/src/main/java/org/example/services/CategoryService.java
+new file mode 100644
+--- /dev/null	(date 1725718302738)
++++ b/src/main/java/org/example/services/CategoryService.java	(date 1725718302738)
+@@ -0,0 +1,11 @@
++package org.example.services;
++import org.example.entities.Category;
++
++public interface CategoryService {
++    public void addCategoryByName(String categoryName);
++    public void removeCategoryByName(String categoryName);
++    public void removeCategoryById(Integer categoryID);
++    public Category getCategoryByName(String categoryName);
++    public Category getCategoryByID(Integer categoryID);
++
++}
+Index: src/main/java/org/example/services/AdminService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/services/AdminService.java b/src/main/java/org/example/services/AdminService.java
+new file mode 100644
+--- /dev/null	(date 1725718302737)
++++ b/src/main/java/org/example/services/AdminService.java	(date 1725718302737)
+@@ -0,0 +1,16 @@
++package org.example.services;
++
++import org.example.entities.User;
++import org.example.entities.Product;
++import java.util.List;
++
++
++public interface AdminService {
++
++    public User getUserByID(Integer id);
++    public User getUserByEmail(String email);
++
++    public Product getProductByID(Integer id);
++    public List<Product>  getProductByName(String productName);
++    public List<Product>  getProductByCategory(String productName);
++}
+Index: src/main/java/org/example/services/AdminServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/services/AdminServiceImpl.java b/src/main/java/org/example/services/AdminServiceImpl.java
+new file mode 100644
+--- /dev/null	(date 1725718302738)
++++ b/src/main/java/org/example/services/AdminServiceImpl.java	(date 1725718302738)
+@@ -0,0 +1,45 @@
++package org.example.services;
++
++import org.example.DAOs.ProductDAO;
++import org.example.DAOs.UserDAO;
++import org.example.entities.Product;
++import org.example.entities.User;
++
++import java.util.List;
++
++public class AdminServiceImpl implements AdminService {
++
++    private final UserDAO userDAO;
++    private final ProductDAO productDAO;
++
++    // Constructor-based Dependency Injection
++    public AdminServiceImpl() {
++        this.userDAO = new UserDAO();
++        this.productDAO = new ProductDAO();
++    }
++
++    @Override
++    public User getUserByID(Integer id) {
++        return userDAO.findById(id);
++    }
++
++    @Override
++    public User getUserByEmail(String email) {
++        return userDAO.findByEmail(email);
++    }
++
++    @Override
++    public Product getProductByID(Integer id) {
++        return productDAO.findById(id);
++    }
++
++    @Override
++    public List<Product> getProductByName(String productName) {
++        return productDAO.findByName(productName);
++    }
++
++    @Override
++    public List<Product> getProductByCategory(String categoryName) {
++        return productDAO.findByCategoryName(categoryName);
++    }
++}

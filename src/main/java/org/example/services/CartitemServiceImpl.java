@@ -3,6 +3,8 @@ package org.example.services;
 
 import org.example.DAOs.CartItemDAO;
 import org.example.entities.Cartitem;
+import org.example.entities.User;
+
 import java.util.List;
 
 public class CartitemServiceImpl implements CartitemService {
@@ -35,5 +37,9 @@ public class CartitemServiceImpl implements CartitemService {
             cartitem.setQuantity(cartitem.getQuantity() + quantity);
             cartitemDAO.update(cartitem);
         }
+    }
+    @Override
+    public void clearCart(Integer userId) {
+        cartitemDAO.clearCartByUserId(userId);
     }
 }

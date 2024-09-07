@@ -11,12 +11,16 @@ import org.example.entities.Product;
 import org.example.entities.User;
 import org.example.services.CartitemService;
 import org.example.services.CartitemServiceImpl;
+import org.example.services.OrderService;
+import org.example.service.OrderServiceImpl;
 
 import java.io.IOException;
 
 @WebServlet("/cart")
 public class CartitemController extends HttpServlet {
     private CartitemService cartitemService = new CartitemServiceImpl();
+    private OrderService orderService = new OrderServiceImpl();
+
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -54,6 +58,17 @@ public class CartitemController extends HttpServlet {
 
                 cartitemService.increaseQuantity(user.getId(), productId, quantity);
                 response.sendRedirect("cart.html");
+            }
+        }
+        else if ("checkout".equals(action)) {
+            HttpSession session = request.getSession();
+            User user = (User) session.getAttribute("user");
+
+            if (user != null) {
+                orderService.checkout(user);
+                response.sendRedirect("orderConfirmation.html");  // Redirect to a confirmation page
+            } else {
+                response.sendRedirect("login.html");
             }
         }
         else if ("remove".equals(action)) {
