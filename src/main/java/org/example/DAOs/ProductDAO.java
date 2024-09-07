@@ -23,6 +23,7 @@ public class ProductDAO extends GenericDAOImpl<Product, Integer> {
             em.close();
         }
     }
+
     public List<Product> findByCategoryName(String categoryName) {
         EntityManager em = emf.createEntityManager();
         try {
