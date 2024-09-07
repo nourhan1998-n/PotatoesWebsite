@@ -5,7 +5,7 @@ import org.example.entities.Product;
 import java.util.List;
 
 
-public interface AdminSevice {
+public interface AdminService {
 
     public User getUserByID(Integer id);
     public User getUserByEmail(String email);

@@ -1,33 +1,45 @@
 package org.example.services;
 
-import org.example.DAOs.GenericDAOImpl;
 import org.example.DAOs.ProductDAO;
 import org.example.DAOs.UserDAO;
 import org.example.entities.Product;
 import org.example.entities.User;
+
 import java.util.List;
 
-public class AdminServiceImpl implements AdminSevice{
-    public User getUserByID(Integer id){
-        UserDAO userDAO = new UserDAO();
+public class AdminServiceImpl implements AdminService {
+
+    private final UserDAO userDAO;
+    private final ProductDAO productDAO;
+
+    // Constructor-based Dependency Injection
+    public AdminServiceImpl() {
+        this.userDAO = new UserDAO();
+        this.productDAO = new ProductDAO();
+    }
+
+    @Override
+    public User getUserByID(Integer id) {
         return userDAO.findById(id);
     }
-    public User getUserByEmail(String email){
-        UserDAO userDAO = new UserDAO();
+
+    @Override
+    public User getUserByEmail(String email) {
         return userDAO.findByEmail(email);
     }
 
-    public Product getProductByID(Integer id){
-        GenericDAOImpl<Product,Integer> productDAO = new GenericDAOImpl(Product.class);
+    @Override
+    public Product getProductByID(Integer id) {
         return productDAO.findById(id);
     }
-    public List<Product> getProductByName(String productName){
-        ProductDAO productDAO = new ProductDAO();
+
+    @Override
+    public List<Product> getProductByName(String productName) {
         return productDAO.findByName(productName);
     }
-    public List<Product>  getProductByCategory(String categoryName){
-        ProductDAO productDAO = new ProductDAO();
+
+    @Override
+    public List<Product> getProductByCategory(String categoryName) {
         return productDAO.findByCategoryName(categoryName);
     }
-
 }
