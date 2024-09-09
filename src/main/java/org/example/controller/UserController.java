@@ -31,7 +31,7 @@ public class UserController extends HttpServlet {
             user.setStreet(request.getParameter("street"));
 
             userService.register(user);
-            response.sendRedirect("login.html");
+            response.sendRedirect("login.jsp");
 
         }
         else if ("login".equals(action)) {

@@ -28,7 +28,11 @@ public class CartitemServiceImpl implements CartitemService {
 
     @Override
     public List<Cartitem> getCartItemsByUserId(Integer userId) {
-        return cartitemDAO.findByUserId(userId);
+        return List.of();
+    }
+
+    public List<Cartitem> getCartItemsByUserId(User user) {
+        return cartitemDAO.findByUser(user);
     }
     @Override
     public void increaseQuantity(Integer userId, Integer productId, Integer quantity) {

@@ -16,6 +16,9 @@
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments" value="true"/>
             <property name="hibernate.type" value="warn"/>
+            <property name="hibernate.json_format_mapper" value="none"/>
+
+
 
             <!--
             connection pooling
