@@ -10,6 +10,7 @@ public interface CartitemService {
     void updateCartItem(Cartitem cartitem);
     void removeCartItem(Cartitem cartitem);
     List<Cartitem> getCartItemsByUserId(Integer userId);
+    public Cartitem findByUserIdAndProductId (Integer userId, Integer productId);
     void clearCart(Integer userId);
     void increaseQuantity(Integer userId, Integer productId, Integer quantity);
 }
