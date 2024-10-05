@@ -23,13 +23,13 @@ public class Product {
     @Column(name = "price", precision = 10)
     private BigDecimal price;
 
-    @Column(name = "img", length = 45)
+    @Column(name = "img", length = 200)
     private String img;
 
     @Column(name = "size", length = 45)
     private String size;
 
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
     @JoinColumn(name = "idcategory", nullable = false)
     private Category idcategory;
 
@@ -90,3 +90,43 @@ public class Product {
     }
 
 }
+
+
+
+
+
+
+//<c:forEach var="cartitem" items="${cartitems}">
+//    <!-- Display Cartitem details -->
+//    <p>Quantity: ${cartitem.quantity}</p>
+//
+//    <!-- Access the corresponding Product using the productMap -->
+//    <c:set var="product" value="${productMap[cartitem.id.idproduct]}" />
+//
+//    <!-- Display Product details -->
+//<p>Product Name: ${product.name}</p>
+//<p>Product Price: ${product.price}</p>
+//<p>Product Image: <img src="${product.imagePath}" alt="${product.name}"/></p>
+//</c:forEach>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -37,19 +37,22 @@ public class GenericDAOImpl<T, ID> implements GenericDAO<T, ID> {
     }
 
     @Override
-    public void update(T entity) {
+    public T update(T entity) {
         EntityManager em = emf.createEntityManager();
+        T managedEntity;
         try {
             em.getTransaction().begin();
-            em.merge(entity);
+            managedEntity = em.merge(entity);
             em.getTransaction().commit();
             logger.info("Entity updated successfully");
         } catch (PersistenceException e) {
             em.getTransaction().rollback();
             logger.log(Level.SEVERE, "Error updating entity", e);
+            throw e;
         } finally {
             em.close();
         }
+        return managedEntity;
     }
 
     @Override

@@ -40,6 +40,7 @@ public class WishlistId implements java.io.Serializable {
                 Objects.equals(this.iduser, entity.iduser);
     }
 
+
     @Override
     public int hashCode() {
         return Objects.hash(idproduct, iduser);

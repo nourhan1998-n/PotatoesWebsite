@@ -17,7 +17,7 @@ public class Order {
     @Column(name = "date")
     private LocalDate date;
 
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
     @JoinColumn(name = "iduser", nullable = false)
     private User iduser;
 

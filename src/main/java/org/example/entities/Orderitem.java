@@ -14,12 +14,12 @@ public class Orderitem {
     private OrderitemId id;
 
     @MapsId("idorder")
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
     @JoinColumn(name = "idorder", nullable = false)
     private Order idorder;
 
     @MapsId("idproduct")
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
     @JoinColumn(name = "idproduct", nullable = false)
     private Product idproduct;
 

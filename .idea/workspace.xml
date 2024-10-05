@@ -5,125 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ad82611-6c78-4a6e-b095-e6ab2c3a405d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_3_47_PM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_3_47_PM_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_3_47_PM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_3_47_PM__Changes_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/AdminDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CartItemDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CategoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/EntityManagerFactorySinglton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/GenericDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/GenericDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/OrderDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/OrderItemDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/ProductDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserInterestDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/WishlistDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CategoryDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/985b3eba-28fe-4f33-9d72-ec81aa421a28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/985b3eba-28fe-4f33-9d72-ec81aa421a28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/985b3eba-28fe-4f33-9d72-ec81aa421a28/storage_v2/_src_/schema/potatoes.FcvWLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e82938d8-4d90-45ee-829c-b23971cacc00.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e82938d8-4d90-45ee-829c-b23971cacc00/storage_v2/_src_/schema/vegesfood.pMfhTg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/user.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Cartitem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Cartitem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/CartitemId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/CartitemId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/985b3eba-28fe-4f33-9d72-ec81aa421a28.corrupted.20240830-064746.reason.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/985b3eba-28fe-4f33-9d72-ec81aa421a28.corrupted.20240830-064746.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9c097f27-3939-412f-8882-cb015c920a6e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9c097f27-3939-412f-8882-cb015c920a6e/storage_v2/_src_/schema/vegesfood.pMfhTg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_3_47_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_3_47_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_3_47_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_3_47_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_30_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_30_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_31_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_30_2024_6_31_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/AdminDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/AdminDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CartItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CartItemDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/CategoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/EntityManagerFactorySinglton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/EntityManagerFactorySinglton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/WishlistDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Orderitem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Orderitem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Userinterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Userinterest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Wishlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Wishlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/WishlistId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/WishlistId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CartUserRelationshipTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/Persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CategoryDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CategoryDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserDAOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/Persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Admin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Admin.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Cartitem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Cartitem.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/CartitemId.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/CartitemId.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Category.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Category.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Interest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Interest.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Order.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Orderitem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Orderitem.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/OrderitemId.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/OrderitemId.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Product.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Productcategory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Productcategory.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/ProductcategoryId.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/ProductcategoryId.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/User.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/User.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Userinterest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Userinterest.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/UserinterestId.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/UserinterestId.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Wishlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Wishlist.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Wishlistitem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/Wishlistitem.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/WishlistitemId.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/WishlistitemId.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example.entities/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/Main.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-08-26T19-55-54_997.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CartUserRelationshipTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CartUserRelationshipTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-09-03T23-00-14_716.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-UserEntityManagerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/UserEntityManagerTest.txt" beforeDir="false" />
+    </list>
+    <list id="5bc8a445-5fdd-445d-9d07-c3106997ee43" name="Changes by mazh1" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/GenericDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/GenericDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/GenericDAOImpl.java" afterDir="false" />
+    </list>
+    <list id="08f5653b-059a-4256-9336-c548b1b5f3db" name="Changes by minamatta" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAOs/OrderItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAOs/OrderItemDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,8 +69,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="com.intellij.jpb.JpaEntity" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -175,63 +111,81 @@
     &quot;accountId&quot;: &quot;0857dea9-8c6f-462e-b729-c3ffbec91dd4&quot;
   }
 }</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2l1dxb7uUvQfWfUhOE1DcR1UcuO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.UserDAO.executor": "Run",
-    "JUnit.CartUserRelationshipTest.executor": "Run",
-    "JUnit.CartUserRelationshipTest.testCartUserRelationship.executor": "Run",
-    "JUnit.CartUserRelationshipTest.testUserEntity.executor": "Run",
-    "JUnit.CategoryDAOTest.executor": "Run",
-    "JUnit.CategoryDAOTest.testDeleteCategory.executor": "Run",
-    "JUnit.CategoryDAOTest.testUpdateCategory.executor": "Run",
-    "JUnit.ProductDAOTest.executor": "Run",
-    "JUnit.ProductDAOTest.testDeleteProduct.executor": "Run",
-    "JUnit.ProductDAOTest.testUpdateProduct.executor": "Run",
-    "JUnit.UserDAOTest.executor": "Run",
-    "JUnit.UserDAOTest.testFindAllUsers.executor": "Run",
-    "JUnit.UserDAOTest.testUpdateUser.executor": "Run",
-    "JUnit.UserEntityManagerTest.executor": "Run",
-    "JUnit.UserEntityManagerTest.testPersistUser.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Merging main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/ITI JAVA/Async/AJAX-day1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/ITI JAVA/webProject/PotatoesWebsite/PotatoesWebsite/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "application.passwordSafe",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.UserDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartUserRelationshipTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartUserRelationshipTest.testCartUserRelationship.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartUserRelationshipTest.testUserEntity.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CategoryDAOTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CategoryDAOTest.testDeleteCategory.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CategoryDAOTest.testUpdateCategory.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductDAOTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductDAOTest.testDeleteProduct.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductDAOTest.testUpdateProduct.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserDAOTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserDAOTest.testSaveUser.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.vegesfood.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hello/Documents/REST-main/REST-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/ITI JAVA/webProject/PotatoesWebsite/PotatoesWebsite/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ITI JAVA\webProject\veges food\src\main\java\org\example\services" />
+      <recent name="E:\ITI JAVA\webProject\veges food\src\main\java\org\example" />
+      <recent name="E:\ITI JAVA\webProject\veges food\src\main\java\org\example\controller" />
+      <recent name="E:\ITI JAVA\webProject\veges food" />
       <recent name="E:\ITI JAVA\webProject\PotatoesWebsite\src\main\resources" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ITI JAVA\webProject\veges food\src\main\webapp" />
+      <recent name="E:\ITI JAVA\webProject\veges food\src\main\webapp\Frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductDAOTest">
+  <component name="RunManager" selected="Smart Tomcat.vegesfood">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -243,40 +197,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartUserRelationshipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PotatoesWebsite" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CartUserRelationshipTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CartUserRelationshipTest.testCartUserRelationship" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PotatoesWebsite" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CartUserRelationshipTest" />
-      <option name="METHOD_NAME" value="testCartUserRelationship" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CategoryDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PotatoesWebsite" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CategoryDAOTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CategoryDAOTest.testDeleteCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PotatoesWebsite" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CategoryDAOTest" />
-      <option name="METHOD_NAME" value="testDeleteCategory" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.services.main" />
+      <module name="VegesFoodWebsite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -300,11 +229,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductDAOTest.testUpdateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PotatoesWebsite" />
+    <configuration name="UserDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VegesFoodWebsite" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductDAOTest" />
-      <option name="METHOD_NAME" value="testUpdateProduct" />
+      <option name="MAIN_CLASS_NAME" value="UserDAOTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDAOTest.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VegesFoodWebsite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserDAOTest" />
+      <option name="METHOD_NAME" value="testSaveUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -321,23 +260,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="vegesfood" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="adminPort" value="8006" />
+      <option name="catalinaBase" value="C:\Users\Hello\.SmartTomcat\veges food\VegesFoodWebsite" />
+      <option name="contextPath" value="/VegesFoodWebsite" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.0.27" />
+          <option name="path" value="C:/Program Files/Apache Software Foundation/Tomcat 10.0" />
+          <option name="version" value="10.0.27.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="VegesFoodWebsite" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.main" />
+      <item itemvalue="JUnit.UserDAOTest.testSaveUser" />
+      <item itemvalue="JUnit.ProductDAOTest" />
+      <item itemvalue="JUnit.ProductDAOTest.testDeleteProduct" />
+      <item itemvalue="JUnit.UserDAOTest" />
+      <item itemvalue="Smart Tomcat.vegesfood" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.UserDAOTest.testSaveUser" />
+        <item itemvalue="JUnit.UserDAOTest" />
         <item itemvalue="JUnit.ProductDAOTest" />
         <item itemvalue="JUnit.ProductDAOTest.testDeleteProduct" />
-        <item itemvalue="JUnit.ProductDAOTest.testUpdateProduct" />
-        <item itemvalue="JUnit.CategoryDAOTest.testDeleteCategory" />
-        <item itemvalue="JUnit.CategoryDAOTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -393,20 +356,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/UserDAOTest.java</url>
-          <line>5</line>
-          <properties class="org.example.entities.UserEntityManagerTest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
