@@ -34,7 +34,6 @@ The project supports both administrator and user functionalities, providing a co
 - [Bonus Features](#bonus-features)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
