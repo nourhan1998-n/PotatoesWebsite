@@ -13,8 +13,6 @@
 The project supports both administrator and user functionalities, providing a complete e-commerce solution.
 
 ---
-
----
 ## Table of Contents
 
 - [Main Features](#main-features)
